@@ -26,55 +26,37 @@
 		</div>
 	</section>
 
-	<section class="dzen_section_DD ">
+	<section id="our_team" class="dzen_section_DD ">
 		<div class="dzen_section_content">
 			<div class="dzen_container">
-				<div class="dzen_column_DD_span6 ">
-					<!-- START REVOLUTION SLIDER 4.6.0 fullwidth mode -->
-					<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:300px;">
-						<div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;max-height:300px;height:300px;">
-							<ul>	<!-- SLIDE  -->
-								<li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
-									<!-- MAIN IMAGE -->
-									<img src="<?php echo site_url('') ?>images/photodune-358775-team-xs.jpg"  alt="photodune-1860048-professional-team-xs"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-									<!-- LAYERS -->
-								</li>
-								<!-- SLIDE  -->
-								<li data-transition="random" data-slotamount="7"  data-saveperformance="off" >
-									<!-- MAIN IMAGE -->
-									<img src="<?php echo site_url('') ?>images/photodune-358775-team-xs.jpg"  alt="photodune-358775-team-xs"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-									<!-- LAYERS -->
-								</li>
-							</ul>
-							<div class="tp-bannertimer"></div>	
+				<div class="dzen_column_DD_span12 ">
+					<div class="dzen_team_member">
+						<div class="dzen_overlayed">
+							<img src="<?php echo site_url('') ?>images/item_0003_Layer-1.jpg" alt="Johny Knoxville">
+							<div class="dzen_overlay">
+								<p>
+									<a href="https://www.facebook.com/luisalberto.gomezmartin" target="_self"><i class="ABdev_icon-twitter"></i></a>
+									<a href="#" target="_self"><i class="ABdev_icon-linkedin"></i></a>
+									<a href="https://www.facebook.com/luisalberto.gomezmartin" target="_self"><i class="ABdev_icon-facebook"></i></a>
+								</p>
+							</div>
 						</div>
-					</div><!-- END REVOLUTION SLIDER -->
-				</div>
-				<div class="dzen_column_DD_span6 about_us_introducton">
-					<h3>
-						<span>Nosotros</span>
-					</h3>
-					<div class="margin_bottom">
-						<div>
-							<span>
-								Trabajamos conforme a un plan integral para lograr conseguir la meta que te propongas, ya sea de salud y bienestar, de recomposición corporal con enfoque estético (aumento de masa muscular y/o disminución de grasa corporal) o de mejora del rendimiento (culturismo y cualquier deporte), este consta de un plan de nutrición (alimentación y suplementación) y el plan de entrenamiento, ambos están diseñados para trabajar en conjunto y lograr óptimos resultados. (aplica la misma mecánica para on-line y presencial). 
-							</span>
-						</div>
-						<div>
-						</div>
-						<!-- <div>
-							<span>
-								Sed ut
-								perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-								doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
-								inventore veritatis et quasi architecto beatae vitae dicta sunt 
-								explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut 
-								odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-								voluptatem sequi nesciunt.
-							</span>
-						</div> -->
+						<a class="dzen_team_member_link dzen_team_member_modal_link" href="">
+							<span class="dzen_team_member_name">L.N. Luis Alberto Gómez Martín</span>
+							<span class="dzen_team_member_position">WhatsApp: 278 113 05 44 </span>
+							<span class="dzen_team_member_position">gomezluisnutricion@hotmail.com  </span>
+						</a>
+						
+						
+						
 					</div>
+	
 				</div>
+				
+				
+				
+				
+				
 			</div>
 		</div>
 	</section>
