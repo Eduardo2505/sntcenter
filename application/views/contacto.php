@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
-<?php include 'plantilla/head.php'; ?>
+	<?php include 'plantilla/head.php'; ?>
 </head>
 
 <body>
@@ -45,7 +45,7 @@
 							<input type="email" name="email" size="40" class="dzencf-text dzencf-email dzencf-validates-as-email" placeholder="CORREO ELECTRONICO">
 							<input type="text" name="subject" size="40" class="dzencf-text" placeholder="ASUNTO">
 							<textarea name="message" cols="40" rows="10" class="dzencf-textarea" placeholder="MENSAJE"></textarea>
-							<input type="submit" value="ENVIAR" class="dzencf-submit" id="dzencf-submit">
+							<input type="submit" value="ENVIAR" class="dzencf-submit" >
 						</form>
 						<div class="dzencf-response-output dzencf-display-none"></div>
 					</div>
@@ -60,19 +60,20 @@
 							<tr>
 								<td>
 									<p class="contact_page_info">
-										<span class=""><i class="ABdev_icon-envelope"></i></span>contacto@sntcenter.com.mx
+										<span class=""><i class="ABdev_icon-envelope"></i></span>gomezluisnutricion@hotmail.com
 									</p>
 									<p class="contact_page_info">
-										<span class=""><i class="ABdev_icon-home"></i></span>Palma CDMX
+										<span class=""><i class="ABdev_icon-home"></i></span>Pedro Moreno # 81-A. Colonia: Centro C.P.: 47700 ,Jalisco, México
 									</p>
-									<p class="contact_page_info">
+									<!-- <p class="contact_page_info">
 										<span class=""><i class="ABdev_icon-globe"></i></span>somewebsitehere.net
-									</p>
-								</td>
-								<td>
+									</p> -->
 									<p class="contact_page_info">
 										<span class=""><i class="ABdev_icon-phonealt"></i></span>378 113 05 44
 									</p>
+								</td>
+								<td>
+									
 									<!-- <p class="contact_page_info">
 										<span class=""><i class="ABdev_icon-draft"></i></span>378 113 05 44
 									</p> -->
@@ -123,32 +124,15 @@
 	</div>
 </section>
 
-<section class="dzen_section_DD no_padding">
-	<div class="dzen_section_content">
-		<div class="dzen_container">
-			<div class="dzen_column_DD_span12 ">
-				<div class="dzen-callout_box no_margin">
-					<div class="dzen_container">
-						<div class="dzen_column_DD_span9">
-							<span class="dzen-callout_box_title">Localizanos
-							</span>
-							
-						</div>
-						<div class="dzen_column_DD_span3">
-							<a href="#" target="_self" class="dzen-button dzen-button_blue dzen-button_normal dzen-button_large">Mostrar Ubucacón</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
+<section class="dzen_section_DD no_padding callout_box_blue">
+	<?php include 'plantilla/suscribete.php'; ?>
+</section>
 <footer id="dz_main_footer">
 	<?php include 'plantilla/footer.php'; ?>
 </footer>
 
-	<?php include 'plantilla/js.php'; ?>
+<?php include 'plantilla/js.php'; ?>
 
 </body>
 </html>

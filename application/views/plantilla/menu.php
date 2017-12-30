@@ -11,16 +11,16 @@
 			<li class="<?php  if($activar==="yo") {echo "current-menu-item"; }?>">
 				<a href="<?php echo site_url('') ?>quien-soy-yo">¿Quién soy ?</a>
 			</li>
-			<li class="<?php  if($activar==="programas") {echo "current-menu-item"; }?>">
-				<a href="#">Programas</a>
-				<ul>
+			<li class="<?php  if($activar==="planes") {echo "current-menu-item"; }?>">
+				<a href="<?php echo site_url('') ?>planes-integrales">Planes integrales</a>
+				<!-- <ul>
 					<li><a href="#">Programa 1</a></li>
 					<li><a href="#">Programa 2</a></li>
 					
-				</ul>
+				</ul> -->
 			</li>
-			<li class="<?php  if($activar==="custionario") {echo "current-menu-item"; }?>">
-			<a href="#">Cuestionario</a></li>
+			<li class="<?php  if($activar==="blog") {echo "current-menu-item"; }?>">
+			<a href="#">Blog</a></li>
 
 			<li class="<?php  if($activar==="historias") {echo "current-menu-item"; }?>">
 				<a href="#">Historias de Éxito</a>

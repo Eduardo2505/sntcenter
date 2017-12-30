@@ -30,5 +30,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('contacto',$data);
 	}
 
+	public function planes()
+	{
+		$datam['activar'] ='planes';
+		$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
+		$this->load->view('planes',$data);
+	}
+
 
 }

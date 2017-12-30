@@ -110,80 +110,66 @@
 					<div id="dz_latest_portfolio" class="clearfix isotope">
 						<div class="portfolio_item portfolio_item_3 identity illustrations isotope-item">
 							<div class="overlayed">
-								<img src="images/item_0004_9573354587_8636f7b080_h.jpg" alt="">
+								<img src="images/12-semanas.jpg" alt="">
 								<a class="overlay" href="#">
-									<p class="overlay_title">Plan Intensivo</p>
-									<p class="portfolio_item_tags">Plan 1</p>
+									<p class="overlay_title">12 semanas</p>
+									<!-- <p class="portfolio_item_tags">12 semanas</p> -->
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 branding illustrations isotope-item">
 							<div class="overlayed">
-								<img src="images/item_0004_9573354587_8636f7b080_h.jpg" alt="">
+								<img src="images/24-semanas.jpg" alt="">
 								<a class="overlay" href="#">
-									<p class="overlay_title">Plan Intensivo</p>
-									<p class="portfolio_item_tags">Plan 1</p>
+									<p class="overlay_title">24 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3  branding identity isotope-item">
 							<div class="overlayed">
-								<img src="images/item_0004_9573354587_8636f7b080_h.jpg" alt="">
+								<img src="images/36-semanas.jpg" alt="">
 								<a class="overlay" href="#">
-									<p class="overlay_title">Plan Intensivo</p>
-									<p class="portfolio_item_tags">Plan 1</p>
+									<p class="overlay_title">36 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 branding uiux isotope-item">
 							<div class="overlayed">
-								<img src="images/item_0004_9573354587_8636f7b080_h.jpg" alt="">
+								<img src="images/48-semanas.jpg" alt="">
 								<a class="overlay" href="#">
-									<p class="overlay_title">Plan Intensivo</p>
-									<p class="portfolio_item_tags">Plan 1</p>
+									<p class="overlay_title">48 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 illustrations uiux isotope-item">
 							<div class="overlayed">
-								<img src="images/item_0004_9573354587_8636f7b080_h.jpg" alt="">
+								<img src="images/60-semanas.jpg" alt="">
 								<a class="overlay" href="#">
-									<p class="overlay_title">Plan Intensivo</p>
-									<p class="portfolio_item_tags">Plan 1</p>
+									<p class="overlay_title">60 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 identity uiux isotope-item">
 							<div class="overlayed">
-								<img src="images/item_0004_9573354587_8636f7b080_h.jpg" alt="">
+								<img src="images/72-semanas.jpg" alt="">
 								<a class="overlay" href="#">
-									<p class="overlay_title">Plan Intensivo</p>
-									<p class="portfolio_item_tags">Plan 1</p>
+									<p class="overlay_title">72 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 sotope-item">
 							<div class="overlayed">
-								<img src="images/item_0004_9573354587_8636f7b080_h.jpg" alt="">
+								<img src="images/96-semanas.jpg" alt="">
 								<a class="overlay" href="#">
-									<p class="overlay_title">Plan Intensivo</p>
-									<p class="portfolio_item_tags">Plan 1</p>
+									<p class="overlay_title">96 semanas</p>
 								</a>
 							</div>
 						</div>
-						<div class="portfolio_item portfolio_item_3 branding illustrations isotope-item">
-							<div class="overlayed">
-								<img src="images/item_0004_9573354587_8636f7b080_h.jpg" alt="">
-								<a class="overlay" href="#">
-									<p class="overlay_title">Plan Intensivo</p>
-									<p class="portfolio_item_tags">Plan 1</p>
-								</a>
-							</div>
-						</div>
+
 					</div>
-					<div class="more_portfolio_link">
+					<!-- <div class="more_portfolio_link">
 						<a href="#">Contáctanos</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -195,25 +181,7 @@
 	
 
 	<section class="dzen_section_DD no_padding callout_box_blue">
-		<div class="dzen_section_content">
-			<div class="dzen_container">
-				<div class="dzen_column_DD_span12 ">
-					<div class="dzen-callout_box color_white no_margin">
-						<div class="dzen_container">
-							<div class="dzen_column_DD_span9">
-								<span class="dzen-callout_box_title">Consejos y tips para tu bienestar y salud</span>
-								<p>
-									Te enviaremos artículos  interasantes que te podran ayudar día a día.
-								</p>
-							</div>
-							<div class="dzen_column_DD_span3">
-								<a href="#" target="_self" class="dzen-button dzen-button_light dzen-button_large">Suscribete</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php include 'plantilla/suscribete.php'; ?>
 	</section>
 
 	<footer id="dz_main_footer">

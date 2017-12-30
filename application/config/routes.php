@@ -55,3 +55,4 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['quien-soy-yo'] = "welcome/yo";
 $route['contacto'] = "welcome/contacto";
+$route['planes-integrales'] = "welcome/planes";

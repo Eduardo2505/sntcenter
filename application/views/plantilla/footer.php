@@ -21,10 +21,10 @@
 				<div class="widget">
 					<h3>Contácto</h3>
 					<div class="contact_info_widget">
-						<p><i class="ABdev_icon-envelope"></i><a href="mailto:contacto@sntcenter.com.mx">contacto@sntcenter.com.mx</a></p>
+						<p><i class="ABdev_icon-envelope"></i><a href="mailto:gomezluisnutricion@hotmail.com">gomezluisnutricion@hotmail.com</a></p>
 						<p><i class="ABdev_icon-phonealt"></i>378 113 05 44</p>
-						<p><i class="ABdev_icon-home"></i>Palma </p>
-						<p><i class="ABdev_icon-globe"></i><a href="#">Ver Mapa</a></p>
+						<p><i class="ABdev_icon-home"></i>Pedro Moreno # 81-A. Colonia: Centro C.P.: 47700 ,Jalisco, México</p>
+						<!-- <p><i class="ABdev_icon-globe"></i><a href="#">Ver Mapa</a></p> -->
 					</div>
 				</div>
 			</div>
