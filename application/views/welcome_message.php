@@ -111,7 +111,7 @@
 						<div class="portfolio_item portfolio_item_3 identity illustrations isotope-item">
 							<div class="overlayed">
 								<img src="images/12-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-12-semanas">
 									<p class="overlay_title">12 semanas</p>
 									<!-- <p class="portfolio_item_tags">12 semanas</p> -->
 								</a>
@@ -120,7 +120,7 @@
 						<div class="portfolio_item portfolio_item_3 branding illustrations isotope-item">
 							<div class="overlayed">
 								<img src="images/24-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+							     <a class="overlay" href="<?php echo site_url('') ?>plan-24-semanas">
 									<p class="overlay_title">24 semanas</p>
 								</a>
 							</div>

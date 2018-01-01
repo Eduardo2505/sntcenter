@@ -29,41 +29,88 @@
 	
 
 	
-	<section id="our_work" class="dzen_section_DD ">
+
+
+
+<section id="our_work" class="dzen_section_DD ">
 		<header>
+			<div class="dzen_container" >
+				<h3>Planes Integrales</h3>
 
-			<div class="dzen_container">
-				<h3>
-					¿Cómo es la mecánica de trabajo simple?
-				</h3>
 			</div>
-			<div class="dzen_container">
-				<div class="dzen_column_DD_span6">
-					<img src="<?php echo site_url('') ?>images/12-semanas.jpg" alt="">
-				</div>
-				<div class="dzen_column_DD_span5">
-					<p style="text-align: justify">
-						Trabajamos conforme a un plan integral para lograr conseguir la meta que te propongas, 
-						ya sea de salud y bienestar, de recomposición corporal con enfoque 
-						estético (aumento de masa muscular y/o disminución de grasa corporal) o 
-						de mejora del rendimiento (culturismo y cualquier deporte), este consta de 
-						un plan de nutrición (alimentación y suplementación) y el plan de entrenamiento, 
-						ambos están diseñados para trabajar en conjunto y lograr óptimos resultados. 
-						(aplica la misma mecánica para on-line y presencial). Agendamos consulta 1 vez 
-						cada 4 semanas y tiene un costo de $1200 por consulta.<br>
-						<br>En caso de solo querer contratar ya sea el plan de alimentación o el 
-						plan de entrenamiento solamente, cada uno cuesta por separado $600. 
-						Los paquetes de Plan integral (alimentación y entrenamiento) 
-						no aplican para contratare por separado, solo la consulta simple. 
-						Esto con la finalidad de obtener los mejores resultados posibles 
-						con el acompañamiento mutuo de todos los pilares del éxito deportivo y/o estético.  
-					</p>
-				</div>
-			</div>
-
+			
 		</header>
-	</section>
+		<div class="dzen_section_content">
+			<div class="dzen_container">
+				<div class="dzen_column_DD_span12">
+					
+					<div id="dz_latest_portfolio" class="clearfix isotope">
+						<div class="portfolio_item portfolio_item_3 identity illustrations isotope-item">
+							<div class="overlayed">
+								<img src="<?php echo site_url('') ?>images/12-semanas.jpg" alt="">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-12-semanas">
+									<p class="overlay_title">12 semanas</p>
+									<!-- <p class="portfolio_item_tags">12 semanas</p> -->
+								</a>
+							</div>
+						</div>
+						<div class="portfolio_item portfolio_item_3 branding illustrations isotope-item">
+							<div class="overlayed">
+								<img src="<?php echo site_url('') ?>images/24-semanas.jpg" alt="">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-24-semanas">
+									<p class="overlay_title">24 semanas</p>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio_item portfolio_item_3  branding identity isotope-item">
+							<div class="overlayed">
+								<img src="<?php echo site_url('') ?>images/36-semanas.jpg" alt="">
+								<a class="overlay" href="#">
+									<p class="overlay_title">36 semanas</p>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio_item portfolio_item_3 branding uiux isotope-item">
+							<div class="overlayed">
+								<img src="<?php echo site_url('') ?>images/48-semanas.jpg" alt="">
+								<a class="overlay" href="#">
+									<p class="overlay_title">48 semanas</p>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio_item portfolio_item_3 illustrations uiux isotope-item">
+							<div class="overlayed">
+								<img src="<?php echo site_url('') ?>images/60-semanas.jpg" alt="">
+								<a class="overlay" href="#">
+									<p class="overlay_title">60 semanas</p>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio_item portfolio_item_3 identity uiux isotope-item">
+							<div class="overlayed">
+								<img src="<?php echo site_url('') ?>images/72-semanas.jpg" alt="">
+								<a class="overlay" href="#">
+									<p class="overlay_title">72 semanas</p>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio_item portfolio_item_3 sotope-item">
+							<div class="overlayed">
+								<img src="<?php echo site_url('') ?>images/96-semanas.jpg" alt="">
+								<a class="overlay" href="#">
+									<p class="overlay_title">96 semanas</p>
+								</a>
+							</div>
+						</div>
 
+					</div>
+					<!-- <div class="more_portfolio_link">
+						<a href="#">Contáctanos</a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
@@ -163,82 +210,37 @@
 
 	<section id="our_work" class="dzen_section_DD ">
 		<header>
-			<div class="dzen_container" >
-				<h3>Planes Integrales</h3>
 
-			</div>
-			
-		</header>
-		<div class="dzen_section_content">
 			<div class="dzen_container">
-				<div class="dzen_column_DD_span12">
-					
-					<div id="dz_latest_portfolio" class="clearfix isotope">
-						<div class="portfolio_item portfolio_item_3 identity illustrations isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/12-semanas.jpg" alt="">
-								<a class="overlay" href="#">
-									<p class="overlay_title">12 semanas</p>
-									<!-- <p class="portfolio_item_tags">12 semanas</p> -->
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 branding illustrations isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/24-semanas.jpg" alt="">
-								<a class="overlay" href="#">
-									<p class="overlay_title">24 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3  branding identity isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/36-semanas.jpg" alt="">
-								<a class="overlay" href="#">
-									<p class="overlay_title">36 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 branding uiux isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/48-semanas.jpg" alt="">
-								<a class="overlay" href="#">
-									<p class="overlay_title">48 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 illustrations uiux isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/60-semanas.jpg" alt="">
-								<a class="overlay" href="#">
-									<p class="overlay_title">60 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 identity uiux isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/72-semanas.jpg" alt="">
-								<a class="overlay" href="#">
-									<p class="overlay_title">72 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 sotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/96-semanas.jpg" alt="">
-								<a class="overlay" href="#">
-									<p class="overlay_title">96 semanas</p>
-								</a>
-							</div>
-						</div>
-
-					</div>
-					<!-- <div class="more_portfolio_link">
-						<a href="#">Contáctanos</a>
-					</div> -->
+				<h3>
+					¿Cómo es la mecánica de trabajo simple?
+				</h3>
+			</div>
+			<div class="dzen_container">
+				<div class="dzen_column_DD_span6">
+					<img src="<?php echo site_url('') ?>images/ayuda.png" alt="">
+				</div>
+				<div class="dzen_column_DD_span5">
+					<p style="text-align: justify">
+						Trabajamos conforme a un plan integral para lograr conseguir la meta que te propongas, 
+						ya sea de salud y bienestar, de recomposición corporal con enfoque 
+						estético (aumento de masa muscular y/o disminución de grasa corporal) o 
+						de mejora del rendimiento (culturismo y cualquier deporte), este consta de 
+						un plan de nutrición (alimentación y suplementación) y el plan de entrenamiento, 
+						ambos están diseñados para trabajar en conjunto y lograr óptimos resultados. 
+						(aplica la misma mecánica para on-line y presencial). Agendamos consulta 1 vez 
+						cada 4 semanas y tiene un costo de $1200 por consulta.<br>
+						<br>En caso de solo querer contratar ya sea el plan de alimentación o el 
+						plan de entrenamiento solamente, cada uno cuesta por separado $600. 
+						Los paquetes de Plan integral (alimentación y entrenamiento) 
+						no aplican para contratare por separado, solo la consulta simple. 
+						Esto con la finalidad de obtener los mejores resultados posibles 
+						con el acompañamiento mutuo de todos los pilares del éxito deportivo y/o estético.  
+					</p>
 				</div>
 			</div>
-		</div>
+
+		</header>
 	</section>
 
 

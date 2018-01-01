@@ -37,5 +37,45 @@ class Welcome extends CI_Controller {
 		$this->load->view('planes',$data);
 	}
 
+	public function plan12seman()
+	{
+		
+
+		
+		$datam['activar'] ='planes';
+		$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
+
+		$data['titulo']="Plan Integral 12 semanas";
+		$data['imagen']="12semanasF.jpg";
+		$data['meses']="N/A";
+		$data['costoConsulta']="1,100";
+		$data['costoProgramaTotal']="3,300";
+		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/2-consulta-12-semanas.html";
+		$data['linkProgramaTotal']="";
+		$data['numConsultas']="3";
+		$this->load->view('plan',$data);
+	}
+
+	public function plan24seman()
+	{
+		
+
+		
+		$datam['activar'] ='planes';
+		$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
+
+		$data['titulo']="Plan Integral 24 semanas";
+		$data['imagen']="24semanasF.jpg";
+		$data['meses']="N/A";
+		$data['costoConsulta']="1,100";
+		$data['costoProgramaTotal']="3,300";
+		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/2-consulta-12-semanas.html";
+		$data['linkProgramaTotal']="";
+		$data['numConsultas']="3";
+		$this->load->view('plan',$data);
+	}
+
+
+
 
 }

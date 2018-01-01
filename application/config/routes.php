@@ -56,3 +56,5 @@ $route['translate_uri_dashes'] = FALSE;
 $route['quien-soy-yo'] = "welcome/yo";
 $route['contacto'] = "welcome/contacto";
 $route['planes-integrales'] = "welcome/planes";
+$route['plan-12-semanas'] = "welcome/plan12seman";
+$route['plan-24-semanas'] = "welcome/plan24seman";
