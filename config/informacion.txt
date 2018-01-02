@@ -15,3 +15,11 @@ contacto@sntcenter.com.mx
 sntcenter25%
 suscripcion@sntcenter.com.mx
 sntcenter25%
+
+
+
+https://sntcenter.com.mx/blog 
+Admin URL : https://sntcenter.com.mx/blog/wp-admin/
+admin
+sntcenter25%
+admin@sntcenter.com.mx
