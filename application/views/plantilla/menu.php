@@ -20,7 +20,7 @@
 				</ul> -->
 			</li>
 			<li class="<?php  if($activar==="blog") {echo "current-menu-item"; }?>">
-			<a href="#">Blog</a></li>
+			<a href="https://sntcenter.com.mx/blog/">Blog</a></li>
 
 		<!-- 	<li class="<?php  if($activar==="historias") {echo "current-menu-item"; }?>">
 				<a href="#">Historias de Éxito</a>
