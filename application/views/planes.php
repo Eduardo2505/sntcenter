@@ -42,6 +42,8 @@
 		</header>
 		<div class="dzen_section_content">
 			<div class="dzen_container">
+
+				
 				<div class="dzen_column_DD_span12">
 					
 					<div id="dz_latest_portfolio" class="clearfix isotope">
@@ -65,7 +67,7 @@
 						<div class="portfolio_item portfolio_item_3  branding identity isotope-item">
 							<div class="overlayed">
 								<img src="<?php echo site_url('') ?>images/36-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-36-semanas">
 									<p class="overlay_title">36 semanas</p>
 								</a>
 							</div>
@@ -73,7 +75,7 @@
 						<div class="portfolio_item portfolio_item_3 branding uiux isotope-item">
 							<div class="overlayed">
 								<img src="<?php echo site_url('') ?>images/48-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-48-semanas">
 									<p class="overlay_title">48 semanas</p>
 								</a>
 							</div>
@@ -81,7 +83,7 @@
 						<div class="portfolio_item portfolio_item_3 illustrations uiux isotope-item">
 							<div class="overlayed">
 								<img src="<?php echo site_url('') ?>images/60-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-60-semanas">
 									<p class="overlay_title">60 semanas</p>
 								</a>
 							</div>
@@ -89,7 +91,7 @@
 						<div class="portfolio_item portfolio_item_3 identity uiux isotope-item">
 							<div class="overlayed">
 								<img src="<?php echo site_url('') ?>images/72-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-72-semanas">
 									<p class="overlay_title">72 semanas</p>
 								</a>
 							</div>
@@ -97,7 +99,7 @@
 						<div class="portfolio_item portfolio_item_3 sotope-item">
 							<div class="overlayed">
 								<img src="<?php echo site_url('') ?>images/96-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-96-semanas">
 									<p class="overlay_title">96 semanas</p>
 								</a>
 							</div>

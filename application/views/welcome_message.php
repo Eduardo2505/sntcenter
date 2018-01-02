@@ -110,7 +110,7 @@
 					<div id="dz_latest_portfolio" class="clearfix isotope">
 						<div class="portfolio_item portfolio_item_3 identity illustrations isotope-item">
 							<div class="overlayed">
-								<img src="images/12-semanas.jpg" alt="">
+								<img src="<?php echo site_url('') ?>images/12-semanas.jpg" alt="">
 								<a class="overlay" href="<?php echo site_url('') ?>plan-12-semanas">
 									<p class="overlay_title">12 semanas</p>
 									<!-- <p class="portfolio_item_tags">12 semanas</p> -->
@@ -119,48 +119,48 @@
 						</div>
 						<div class="portfolio_item portfolio_item_3 branding illustrations isotope-item">
 							<div class="overlayed">
-								<img src="images/24-semanas.jpg" alt="">
-							     <a class="overlay" href="<?php echo site_url('') ?>plan-24-semanas">
+								<img src="<?php echo site_url('') ?>images/24-semanas.jpg" alt="">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-24-semanas">
 									<p class="overlay_title">24 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3  branding identity isotope-item">
 							<div class="overlayed">
-								<img src="images/36-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<img src="<?php echo site_url('') ?>images/36-semanas.jpg" alt="">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-36-semanas">
 									<p class="overlay_title">36 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 branding uiux isotope-item">
 							<div class="overlayed">
-								<img src="images/48-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<img src="<?php echo site_url('') ?>images/48-semanas.jpg" alt="">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-48-semanas">
 									<p class="overlay_title">48 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 illustrations uiux isotope-item">
 							<div class="overlayed">
-								<img src="images/60-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<img src="<?php echo site_url('') ?>images/60-semanas.jpg" alt="">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-60-semanas">
 									<p class="overlay_title">60 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 identity uiux isotope-item">
 							<div class="overlayed">
-								<img src="images/72-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<img src="<?php echo site_url('') ?>images/72-semanas.jpg" alt="">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-72-semanas">
 									<p class="overlay_title">72 semanas</p>
 								</a>
 							</div>
 						</div>
 						<div class="portfolio_item portfolio_item_3 sotope-item">
 							<div class="overlayed">
-								<img src="images/96-semanas.jpg" alt="">
-								<a class="overlay" href="#">
+								<img src="<?php echo site_url('') ?>images/96-semanas.jpg" alt="">
+								<a class="overlay" href="<?php echo site_url('') ?>plan-96-semanas">
 									<p class="overlay_title">96 semanas</p>
 								</a>
 							</div>

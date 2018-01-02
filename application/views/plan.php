@@ -66,7 +66,7 @@
 							<span class="dzen_pricebox_feature"><?php echo $meses?></span>
 							
 							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
-								<a href="shortcodes.html" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comprar</a>
+								<a href="<?php echo $linkProgramaTotal?>" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comprar</a>
 							</div>          
 						</div>
 					</div>

@@ -40,11 +40,12 @@
 			<div class="dzen_container">
 				<div class="dzen_column_DD_span6">
 					<div class="dzencf" id="dzencf-wrapper" dir="ltr">
-						<form action="#" method="post" class="contact-form">
-							<input type="text" name="name" size="40" class="dzencf-text" placeholder="NOMBRE ">
-							<input type="email" name="email" size="40" class="dzencf-text dzencf-email dzencf-validates-as-email" placeholder="CORREO ELECTRONICO">
-							<input type="text" name="subject" size="40" class="dzencf-text" placeholder="ASUNTO">
-							<textarea name="message" cols="40" rows="10" class="dzencf-textarea" placeholder="MENSAJE"></textarea>
+						<form action="<?php echo site_url('') ?>welcome/eviarEmail"  method="post" class="contact-form">
+							<input type="text" name="nombre" size="40" class="dzencf-text" placeholder="NOMBRE " required="">
+							<input type="email" name="email" size="40" class="dzencf-text dzencf-email dzencf-validates-as-email" placeholder="CORREO ELECTRONICO" required="">
+							<input type="tel" name="telefono" size="40" class="dzencf-text" placeholder="TÉLEFONO " required="">
+							<input type="text" name="asunto" size="40" class="dzencf-text" placeholder="ASUNTO" required="">
+							<textarea name="mensaje" cols="40" rows="10" class="dzencf-textarea" placeholder="MENSAJE" required=""></textarea>
 							<input type="submit" value="ENVIAR" class="dzencf-submit" >
 						</form>
 						<div class="dzencf-response-output dzencf-display-none"></div>
@@ -60,7 +61,7 @@
 							<tr>
 								<td>
 									<p class="contact_page_info">
-										<span class=""><i class="ABdev_icon-envelope"></i></span>gomezluisnutricion@hotmail.com
+										<span class=""><i class="ABdev_icon-envelope"></i></span><a href="mailto:gomezluisnutricion@hotmail.com">gomezluisnutricion@hotmail.com</a>
 									</p>
 									<p class="contact_page_info">
 										<span class=""><i class="ABdev_icon-home"></i></span>Pedro Moreno # 81-A. Colonia: Centro C.P.: 47700 ,Jalisco, México
@@ -104,8 +105,8 @@
 				<div class="dzen_column_DD_span12">
 					<div id="dzen_google_map_1" 
 					data-map_type="ROADMAP" 
-					data-lat="20.672915" 
-					data-lng="-103.353359" 
+					data-lat="20.8240341" 
+					data-lng="-102.58918019999999" 
 					data-zoom="17" 
 					data-scrollwheel="0" 
 					data-maptypecontrol="1" 
@@ -115,8 +116,8 @@
 					data-markertitle="Our Company" 
 					data-markericon="images/map-pointer.png" 
 					data-markercontent="Our Address" 
-					data-markerlat="20.672915" 
-					data-markerlng="-103.353359" 
+					data-markerlat="20.8240341" 
+					data-markerlng="-102.58918019999999" 
 					class="dzen_google_map" style="height:400px;width:100%;">
 				</div>
 			</div>

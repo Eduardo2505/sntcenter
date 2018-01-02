@@ -22,9 +22,9 @@
 			<li class="<?php  if($activar==="blog") {echo "current-menu-item"; }?>">
 			<a href="#">Blog</a></li>
 
-			<li class="<?php  if($activar==="historias") {echo "current-menu-item"; }?>">
+		<!-- 	<li class="<?php  if($activar==="historias") {echo "current-menu-item"; }?>">
 				<a href="#">Historias de Éxito</a>
-			</li>
+			</li> -->
 			
 			<li class="<?php  if($activar==="contacto") {echo "current-menu-item"; }?>">
 				<a href="<?php echo site_url('') ?>contacto">Contacto</a>

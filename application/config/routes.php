@@ -58,3 +58,10 @@ $route['contacto'] = "welcome/contacto";
 $route['planes-integrales'] = "welcome/planes";
 $route['plan-12-semanas'] = "welcome/plan12seman";
 $route['plan-24-semanas'] = "welcome/plan24seman";
+$route['plan-36-semanas'] = "welcome/plan36seman";
+$route['plan-48-semanas'] = "welcome/plan48seman";
+$route['plan-60-semanas'] = "welcome/plan60seman";
+$route['plan-72-semanas'] = "welcome/plan72seman";
+$route['plan-96-semanas'] = "welcome/plan96seman";
+$route['mensaje-enviado'] = "welcome/eviarEmail";
+
