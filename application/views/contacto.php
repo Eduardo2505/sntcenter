@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span8">
-					<h1>Contácto</h1>
+					<h1>Contacto</h1>
 				</div>
 				<div class="span4 right_aligned">
 					<div class="breadcrumbs">
@@ -86,13 +86,14 @@
 						<span>Siguenos</span>
 					</h3>
 					<div class="dzen_follow_us">
-						<a title="Follow us on Facebook" class="dzen_socialicon_facebook dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-facebook"></i></a>
-						<a title="Follow us on Twitter" class="dzen_socialicon_twitter dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-twitter"></i></a>
-						<a title="Follow us on Google+" class="dzen_socialicon_googleplus dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-googleplus"></i></a>
-						<a title="Follow us on Linkedin" class="dzen_socialicon_linkedin dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-linkedin"></i></a>
-						<a title="Follow us on Youtube" class="dzen_socialicon_youtube dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-youtube"></i></a>
-						<a title="Our RSS feed" class="dzen_socialicon_feed dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-rss"></i></a>
-						<a title="Our Vimeo Profile" class="dzen_socialicon_vimeo dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-vimeo"></i></a>
+						<a title="Siguenos en Facebook" class="dzen_socialicon_facebook dzen_tooltip" data-gravity="s" href="https://www.facebook.com/SNTCenter.SportNutritionandTrainningCenter/" target="_blank"><i class="ABdev_icon-facebook"></i></a>
+						<a title="Siguenos en Twitter" class="dzen_socialicon_twitter dzen_tooltip" data-gravity="s" href="https://twitter.com/SNT_Center" target="_blank"><i class="ABdev_icon-twitter"></i></a>
+						<!-- <a title="Siguenos en Google+" class="dzen_socialicon_googleplus dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-googleplus"></i></a>
+						 -->
+						<a title="Siguenos en Linkedin" class="dzen_socialicon_linkedin dzen_tooltip" data-gravity="s" href="https://www.linkedin.com/in/luis-alberto-g%C3%B3mez-mart%C3%ADn-758125b0/" target="_blank"><i class="ABdev_icon-linkedin"></i></a>
+						<a title="Siguenos en Youtube" class="dzen_socialicon_youtube dzen_tooltip" data-gravity="s" href="https://www.youtube.com/channel/UC4JiqN4IHp_SKLOVwZb4Isw?view_as=subscriber" target="_blank"><i class="ABdev_icon-youtube"></i></a>
+						<!-- <a title="Our RSS feed" class="dzen_socialicon_feed dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-rss"></i></a>
+						<a title="Our Vimeo Profile" class="dzen_socialicon_vimeo dzen_tooltip" data-gravity="s" href="#" target="_blank"><i class="ABdev_icon-vimeo"></i></a> -->
 					</div>
 				</div>
 			</div>

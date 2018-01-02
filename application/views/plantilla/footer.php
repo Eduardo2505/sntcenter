@@ -13,7 +13,11 @@
 				<div class="widget rpwe_widget">
 					<h3>Tweets</h3>
 					<div class="rpwe-block">
-						
+						<a class="twitter-timeline" data-lang="es" 
+						data-height="250" href="https://twitter.com/SNT_Center?ref_src=twsrc%5Etfw">
+					   </a>
+					    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 					</div>
 				</div>
 			</div>
@@ -30,15 +34,38 @@
 			</div>
 			<div class="span3 clearfix">
 				<div class="widget flickr-stream">
-					<h3>Historias de éxito</h3>
-					<div class="flickr_stream">
-						<a class="link-middle-image" href="#" target="_blank"><img src="<?php echo site_url('') ?>images/14596923138_d4d46d271c_s.jpg" alt=""></a>
-						<a class="link-middle-image" href="#" target="_blank"><img src="<?php echo site_url('') ?>images/14596923138_d4d46d271c_s.jpg" alt=""></a>
-						<a class="link-middle-image" href="#" target="_blank"><img src="<?php echo site_url('') ?>images/14596923138_d4d46d271c_s.jpg" alt=""></a>
-						<a class="link-middle-image" href="#" target="_blank"><img src="<?php echo site_url('') ?>images/14596923138_d4d46d271c_s.jpg" alt=""></a>
-						<a class="link-middle-image" href="#" target="_blank"><img src="<?php echo site_url('') ?>images/14596923138_d4d46d271c_s.jpg" alt=""></a>
-						<a class="link-middle-image" href="#" target="_blank"><img src="<?php echo site_url('') ?>images/14596923138_d4d46d271c_s.jpg" alt=""></a>
-					</div>
+					<h3>Servicios</h3>
+					<div class="rpwe-block">
+								<ul>
+									<li>
+										<a href="<?php echo site_url('') ?>plan-12-semanas" title="12 Semanas" rel="bookmark">
+											<img src="images/12-semanas.jpg" class="rpwe-thumb" alt="12 Semanas" title="96 Semanas">								
+										</a>
+										<h3 class="rpwe-title">
+											<a href="<?php echo site_url('') ?>plan-12-semanas" title="12 Semanas" rel="bookmark">12 Semanas</a>
+										</h3>
+										<time class="rpwe-time" >Ver ahora</time>
+									</li>
+									<li>
+										<a href="<?php echo site_url('') ?>plan-96-semanas" title="96 Semanas" rel="bookmark">
+											<img src="images/96-semanas.jpg" class="rpwe-thumb" alt="96 Semanas" title="96 Semanas">								
+										</a>
+										<h3 class="rpwe-title">
+											<a href="<?php echo site_url('') ?>plan-96-semanas" title="96 Semanas" rel="bookmark">96 Semanas</a>
+										</h3>
+										<time class="rpwe-time" >Ver ahora</time>
+									</li>
+									<li>
+										<a href="<?php echo site_url('') ?>plan-60-semanas" title="60 Semanas" rel="bookmark">
+											<img src="images/60-semanas.jpg" class="rpwe-thumb" alt="So many great places" title="So many great places">								
+										</a>
+										<h3 class="rpwe-title">
+											<a href="<?php echo site_url('') ?>plan-60-semanas" title="60 Semanas" rel="bookmark">60 Semanas</a>
+										</h3>
+										<time class="rpwe-time" >Ver ahora</time>
+									</li>
+								</ul>
+							</div>
 				</div>
 			</div>
 		</div>
@@ -51,11 +78,12 @@
 				Copyright © 2015. All Rights reserved.  <a href="http://apilink.com.mx/" target="_blank">Apilink</a>
 			</div>
 			<div class="span5 footer_social">
-				<a href="#" target="_self"><i class="ABdev_icon-linkedin"></i></a>
-				<a href="#" target="_self"><i class="ABdev_icon-facebook"></i></a>
-				<a href="#" target="_self"><i class="ABdev_icon-skype"></i></a>
-				<a href="#" target="_self"><i class="ABdev_icon-googleplus"></i></a>
-				<a href="#" target="_self"><i class="ABdev_icon-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/luis-alberto-g%C3%B3mez-mart%C3%ADn-758125b0/" target="_blank"><i class="ABdev_icon-linkedin"></i></a>
+				<a href="https://www.facebook.com/SNTCenter.SportNutritionandTrainningCenter/" target="_blank"><i class="ABdev_icon-facebook"></i></a>
+				<!-- <a href="#" target="_blank"><i class="ABdev_icon-skype"></i></a> -->
+				 <a href="https://www.youtube.com/channel/UC4JiqN4IHp_SKLOVwZb4Isw?view_as=subscriber" target="_blank"><i class="ABdev_icon-youtube"></i></a>
+				 
+				<a href="https://twitter.com/SNT_Center" target="_blank"><i class="ABdev_icon-twitter"></i></a>
 			</div>
 		</div>
 	</div>
