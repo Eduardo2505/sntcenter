@@ -37,14 +37,28 @@
 					<div class="dzen-tabs" data-selected="1" data-break_point="449" data-effect="slide">
 						<ul>
 							<li>
-								<a href="#tab-1">Instrucciones y objetivos generales:</a>
+								<a href="#tab-1">Paso 1</a>
 							</li>
 							<li>
-								<a href="#tab-2">Why we do it</a>
+								<a href="#tab-2">Paso 2</a>
 							</li>
 							<li>
-								<a href="#tab-3">How we do it</a>
+								<a href="#tab-3">Paso 3</a>
 							</li>
+							<li>
+								<a href="#tab-4">Paso 4</a>
+							</li>
+							<li>
+								<a href="#tab-5">Paso 5</a>
+							</li>
+							<li>
+								<a href="#tab-6">Paso 6</a>
+							</li>
+							<li>
+								<a href="#tab-7">Paso 7</a>
+							</li>
+							
+
 						</ul>
 
 						<form action="#" method="post" class="contact-form">
@@ -96,14 +110,74 @@
 								</div>
 								<div id="tab-2">
 									<div>
-										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-										nonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit amet, 
-										consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
-										labore.
+										Este apartado nos servirá para poder saber de qué manera podremos adaptar las estrategias nutricionales y de entrenamiento a su vida actual sin que estas cambien demasiado su calidad de vida, ya que trabajamos con seres humanos integrales y no solo con números y datos.
 									</div>
-									<div>
-										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-										nonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit amet.
+									<div class="dzencf" id="dzencf-wrapper" dir="ltr">
+
+										<select name="nivelEducativo" class="dzencf-text" required="">
+											<option value="">Nivel educativo terminado</option>
+											<option value="Secuandario">Secuandario</option>
+											<option value="Preparatoria">Preparatoria</option>
+											<option value="Media Superior">Media Superior</option>
+											
+										</select>
+
+										
+										<input type="text" name="actividadLaboral" maxlength="350" class="dzencf-text" placeholder="Actividad laboral remunerada" required="">
+
+										<select name="nivelSocioeconomico" class="dzencf-text" required="">
+											<option value="">Nivel socio-económico</option>
+											<option value="Alto">Alto</option>
+											<option value="Medio">Medio</option>
+											<option value="Bajo">Bajo</option>
+											
+										</select>
+										
+										<input type="text" name="actividadocio" maxlength="350" class="dzencf-text" placeholder="Actividades de ocio y placer" required="">
+										
+										<select name="estadocivil" class="dzencf-text" required="">
+											<option value="">Estado civil actual</option>
+											<option value="Casado(a)">Casad@</option>
+											<option value="Divorciado(a)">Divorciado (a)</option>
+											<option value="Soltero(a)">Soltero(a)</option>
+											<option value="Unión Libre">Unión Libre</option>
+											<option value="Viudo(a)">Viudo(a)</option>
+											
+										</select>
+
+										
+										<input type="text" name="cuantosHijos" maxlength="350" class="dzencf-text" placeholder="¿Cuántos hijos tiene?" required="">
+										<input type="text" name="conquienvives" maxlength="350" class="dzencf-text" placeholder="¿Con quién vive?" required="">
+										<input type="text" name="quienpreparaTucomida" maxlength="350" class="dzencf-text" placeholder="¿Quién prepara su comida? " required="">
+										
+
+										<select name="niveldeEstres" class="dzencf-text" required="">
+											<option value="">Nivel de estrés diario</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+											
+										</select>
+
+										<select name="horasdeTiempo" class="dzencf-text" required="">
+											<option value="">Horas de sueño</option>
+											<option value="Ininterrumpido">Ininterrumpido</option>
+											<option value="Lapsos">Lapsos</option>
+											
+											
+										</select>
+										
+										
+										<input type="text" name="cuantasvecesdefecta" maxlength="350" class="dzencf-text" placeholder="¿Cuántas veces defeca en promedio al día?" required="">
+										<input type="text" name="cuantasVecesOrina" maxlength="350" class="dzencf-text" placeholder="¿Cuántas veces orina en promedio al día?" required="">
+
 									</div>
 								</div>
 								<div id="tab-3">
