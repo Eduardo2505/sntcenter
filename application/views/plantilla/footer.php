@@ -39,7 +39,7 @@
 								<ul>
 									<li>
 										<a href="<?php echo site_url('') ?>plan-12-semanas" title="12 Semanas" rel="bookmark">
-											<img src="images/12-semanas.jpg" class="rpwe-thumb" alt="12 Semanas" title="96 Semanas">								
+											<img src="<?php echo site_url('') ?>images/12-semanas.jpg" class="rpwe-thumb" alt="12 Semanas" title="96 Semanas">								
 										</a>
 										<h3 class="rpwe-title">
 											<a href="<?php echo site_url('') ?>plan-12-semanas" title="12 Semanas" rel="bookmark">12 Semanas</a>
@@ -48,7 +48,7 @@
 									</li>
 									<li>
 										<a href="<?php echo site_url('') ?>plan-96-semanas" title="96 Semanas" rel="bookmark">
-											<img src="images/96-semanas.jpg" class="rpwe-thumb" alt="96 Semanas" title="96 Semanas">								
+											<img src="<?php echo site_url('') ?>images/96-semanas.jpg" class="rpwe-thumb" alt="96 Semanas" title="96 Semanas">								
 										</a>
 										<h3 class="rpwe-title">
 											<a href="<?php echo site_url('') ?>plan-96-semanas" title="96 Semanas" rel="bookmark">96 Semanas</a>
@@ -57,7 +57,7 @@
 									</li>
 									<li>
 										<a href="<?php echo site_url('') ?>plan-60-semanas" title="60 Semanas" rel="bookmark">
-											<img src="images/60-semanas.jpg" class="rpwe-thumb" alt="So many great places" title="So many great places">								
+											<img src="<?php echo site_url('') ?>images/60-semanas.jpg" class="rpwe-thumb" alt="So many great places" title="So many great places">								
 										</a>
 										<h3 class="rpwe-title">
 											<a href="<?php echo site_url('') ?>plan-60-semanas" title="60 Semanas" rel="bookmark">60 Semanas</a>
