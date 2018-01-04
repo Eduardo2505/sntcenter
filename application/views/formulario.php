@@ -1301,7 +1301,7 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 	<div class="dzen_container">
 		<div class="dzen_column_DD_span11">
 			<div class="dzen-accordion" data-expanded="3" role="tablist">
-
+				<!-- inicio -->
 				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-12" aria-controls="ui-accordion-1-panel-12" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
 				Alcohol</h3>
 				<div class="ui-accordion-content" id="ui-accordion-1-panel-12" aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false" aria-hidden="true">
@@ -1330,6 +1330,101 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					</div>
 					
 				</div>
+				<!-- fin -->
+
+				<!-- inicio -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-12" aria-controls="ui-accordion-1-panel-12" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				Tabaco</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-12" aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false" aria-hidden="true">
+					
+					
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+							<input type="text" name="consumoSusTabacoTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="consumoSusTabacocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span3">
+
+						<div class="margin_bottom">
+							<input type="text" name="consumoSusTabacoFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin -->
+
+				<!-- inicio -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-12" aria-controls="ui-accordion-1-panel-12" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				Cafeína</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-12" aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false" aria-hidden="true">
+					
+					
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+							<input type="text" name="consumoSusCafeinaTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="consumoSusCafeinacocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span3">
+
+						<div class="margin_bottom">
+							<input type="text" name="consumoSusCafeinaFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin -->
+
+				<!-- inicio -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-12" aria-controls="ui-accordion-1-panel-12" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				Otras drogas</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-12" aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false" aria-hidden="true">
+					
+					
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+							<input type="text" name="consumoSusOtrasTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="consumoSusOtrascocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span3">
+
+						<div class="margin_bottom">
+							<input type="text" name="consumoSusOtrasFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin -->
+
 			</div>
 		</div>
 	</div>
