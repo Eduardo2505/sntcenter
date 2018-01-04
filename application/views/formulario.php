@@ -1246,14 +1246,14 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span5">
 
 						<div class="margin_bottom">
-							<input type="text" name="suple5Nombre" maxlength="350" class="dzencf-text" placeholder="Nombre" required="">
+							<input type="text" name="suple5Nombre" maxlength="350" class="dzencf-text" placeholder="Nombre" >
 						</div>
 					</div>
 					<div class="dzen_column_DD_span6">
 
 						<div class="margin_bottom">
 
-							<input type="text" name="suple5Caracteristicas" maxlength="350" class="dzencf-text" placeholder="Características" required="">
+							<input type="text" name="suple5Caracteristicas" maxlength="350" class="dzencf-text" placeholder="Características" >
 
 						</div>
 					</div>
@@ -1261,14 +1261,14 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span5">
 
 						<div class="margin_bottom">
-							<input type="text" name="suple5Motivo" maxlength="350" class="dzencf-text" placeholder="Motivo de uso" required="">
+							<input type="text" name="suple5Motivo" maxlength="350" class="dzencf-text" placeholder="Motivo de uso" >
 						</div>
 					</div>
 					<div class="dzen_column_DD_span6">
 
 						<div class="margin_bottom">
 
-							<input type="text" name="suple5Tiempo" maxlength="350" class="dzencf-text" placeholder="Tiempo de uso" required="">
+							<input type="text" name="suple5Tiempo" maxlength="350" class="dzencf-text" placeholder="Tiempo de uso" >
 
 						</div>
 					</div>
@@ -1276,7 +1276,7 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span5">
 
 						<div class="margin_bottom">
-							<input type="text" name="suple5Cantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad usada" required="">
+							<input type="text" name="suple5Cantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad usada" >
 						</div>
 					</div>
 				</div>
@@ -1310,14 +1310,14 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span4">
 
 						<div class="margin_bottom">
-							<input type="text" name="consumoSusAlcolTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" required="">
+							<input type="text" name="consumoSusAlcolTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" >
 						</div>
 					</div>
 					<div class="dzen_column_DD_span4">
 
 						<div class="margin_bottom">
 
-							<input type="text" name="consumoSusAlcolcantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" required="">
+							<input type="text" name="consumoSusAlcolcantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad">
 
 						</div>
 					</div>
@@ -1325,7 +1325,7 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span3">
 
 						<div class="margin_bottom">
-							<input type="text" name="consumoSusAlcolFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" required="">
+							<input type="text" name="consumoSusAlcolFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" >
 						</div>
 					</div>
 					
@@ -1341,14 +1341,14 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span4">
 
 						<div class="margin_bottom">
-							<input type="text" name="consumoSusTabacoTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" required="">
+							<input type="text" name="consumoSusTabacoTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" >
 						</div>
 					</div>
 					<div class="dzen_column_DD_span4">
 
 						<div class="margin_bottom">
 
-							<input type="text" name="consumoSusTabacocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" required="">
+							<input type="text" name="consumoSusTabacocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" >
 
 						</div>
 					</div>
@@ -1356,7 +1356,7 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span3">
 
 						<div class="margin_bottom">
-							<input type="text" name="consumoSusTabacoFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" required="">
+							<input type="text" name="consumoSusTabacoFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" >
 						</div>
 					</div>
 					
@@ -1372,14 +1372,14 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span4">
 
 						<div class="margin_bottom">
-							<input type="text" name="consumoSusCafeinaTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" required="">
+							<input type="text" name="consumoSusCafeinaTipo" maxlength="350" class="dzencf-text" placeholder="Tipo" >
 						</div>
 					</div>
 					<div class="dzen_column_DD_span4">
 
 						<div class="margin_bottom">
 
-							<input type="text" name="consumoSusCafeinacocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" required="">
+							<input type="text" name="consumoSusCafeinacocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" >
 
 						</div>
 					</div>
@@ -1387,7 +1387,7 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span3">
 
 						<div class="margin_bottom">
-							<input type="text" name="consumoSusCafeinaFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" required="">
+							<input type="text" name="consumoSusCafeinaFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" >
 						</div>
 					</div>
 					
@@ -1410,7 +1410,7 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 
 						<div class="margin_bottom">
 
-							<input type="text" name="consumoSusOtrascocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" required="">
+							<input type="text" name="consumoSusOtrascocantidad" maxlength="350" class="dzencf-text" placeholder="Cantidad" >
 
 						</div>
 					</div>
@@ -1418,7 +1418,7 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 					<div class="dzen_column_DD_span3">
 
 						<div class="margin_bottom">
-							<input type="text" name="consumoSusOtrasFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" required="">
+							<input type="text" name="consumoSusOtrasFrecuencia" maxlength="350" class="dzencf-text" placeholder="Frecuencia" >
 						</div>
 					</div>
 					
@@ -1430,15 +1430,331 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 	</div>
 
 	<!-- fin componenete -->
+	<!-- incio componenete -->
+	<div>
+		Instrucciones y objetivos específicos: Este apartado nos servirá para conocer con mayor exactitud sus variables fisiológicas y así determinar su nivel de aptitud física y en última instancia, determinar el adecuado y correcto nivel de intensidad y exigencia al momento de diseñar el plan de Entrenamiento. 
+	</div>
+	<strong>Datos fisiológicos</strong>
+	<br></br>
+	<input type="text" name="dfFcar" maxlength="350" class="dzencf-text" placeholder="Frecuencia cardiaca en reposo (pulsaciones por minuto)" >
+	
+	<input type="text" name="dfFcarres" maxlength="350" class="dzencf-text" placeholder="Frecuencia respiratoria en reposo (respiración por minuto)" >
+	
+	<!-- fin componenete -->
+	<!-- incio componenete -->
+	<div>
+		Instrucciones y objetivos específicos: Este apartado nos servirá para ubicar sus preferencias alimenticias personales y poder diseñar un plan de Alimentación individualizado, con el cual se sienta lo más cómodo posible y este le ayude al apego del mismo, logrando así sus metas y objetivos. 
+	</div>
+	<strong>Características dietéticas personales</strong>
+	<br></br>
+
+	
+
+	<input type="text" name="cdipersoAli" maxlength="350" class="dzencf-text" placeholder="¿Alimentos evitados? " >
+
+	
+	<input type="text" name="cdipersoAliporque" maxlength="350" class="dzencf-text" placeholder="¿Por qué? " >
 
 
 
+	<select name="cdipersoANivel" class="dzencf-text" required="">
+		<option value="">Nivel de apetito </option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+	</select>
 
+	<input type="text" name="cdipersoANivelCambios" maxlength="350" class="dzencf-text" placeholder="¿Cambios recientes en el apetito? " required="">
+
+	<input type="text" name="cdipersoAlergias" maxlength="350" class="dzencf-text" placeholder="¿Tiene alguna alergia alimentaria? " required="">
+	<input type="text" name="cdipersoIntoleranciaalimen" maxlength="350" class="dzencf-text" placeholder="¿Tiene alguna intolerancia alimentaria?" required="">
+
+	<input type="text" name="cdipersoAlinoconsumir" maxlength="350" class="dzencf-text" placeholder="¿Qué alimentos no puede conseguir fácilmente?" required="">
+
+	<!-- fin componenete -->
 </div>
 
 <!-- fin tab 6 -->
 
+<!-- inicio tab 7 -->
+<div id="tab-7">
+	<div>
+		Instrucciones y objetivos específicos: Este apartado nos servirá para saber qué experiencia tiene al seguir planes de Alimentación, ya sea con profesionales en el área o no, entender que técnicas y estrategias ya conoce y cuáles de ellas funcionan y cuáles no, para así aprovechar el tiempo de la mejor manera posible. 
+	</div></br>
+	<strong>Experiencia dietética previa</strong>
+	<!-- inicio desplegable -->
+	<div class="dzen_container">
+		<div class="dzen_column_DD_span11">
+			<div class="dzen-accordion" data-expanded="1" role="tablist">
+				<!-- nueva entrada -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-23" aria-controls="ui-accordion-1-panel-23" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				¿Dietas auto-prescritas?</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-23" aria-labelledby="ui-accordion-1-header-23" role="tabpane23" aria-expanded="false" aria-hidden="true">
+					
+					<div class="dzen_column_DD_span11"></div>
+					<div class="dzen_column_DD_span6">
 
+						<div class="margin_bottom">
+							<input type="text" name="edpduraTiempo" maxlength="350" class="dzencf-text" placeholder="¿Durante cuánto tiempo?" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="edpcuantoTiempo" maxlength="350" class="dzencf-text" placeholder="¿Hace cuánto tiempo?" required="">
+
+						</div>
+					</div>
+
+
+					
+
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="edpcResulobtuvo" maxlength="350" class="dzencf-text" placeholder="¿Qué resultados obtuvo?" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="edpcxqAbandono" maxlength="350" class="dzencf-text" placeholder="¿Por qué abandono?" required="">
+
+						</div>
+					</div>
+
+					
+				</div>
+				<!-- fin entrada -->
+			</div>
+		</div>
+	</div>
+	<!-- fin desplegable -->
+	<div>
+		Instrucciones y objetivos específicos: Este apartado nos servirá para obtener los datos corporales básicos necesarios para el cálculo de sus requerimientos diarios de energía (kcal). Para obtener esta información se necesita una únicamente una báscula y un estadimetro (instrumento para medir la talla total de la persona). 
+	</div></br>
+	<strong>Datos antropométricos básicos</strong><br>
+	<input type="text" name="dabasiPeso" maxlength="350" class="dzencf-text" placeholder="Peso total (kg.g)" r>
+	<input type="text" name="dabasiAltura" maxlength="350" class="dzencf-text" placeholder="Estatura total (cm)" >
+
+	<div>
+		Instrucciones y objetivos específicos: Este apartado nos servirá para hacer comparaciones de su progreso a través del tiempo, pudiendo así modificar los planes de Alimentación y Entrenamiento. Para obtener esta información se necesita una báscula de Bioimpedancia o con un profesional capacitado para la realización de las mediciones antropométricas (ISAK 1)
+	</div></br>
+	<strong>Datos antropométricos especializados</strong><br>
+	<input type="text" name="datosAntroespgrasa" maxlength="350" class="dzencf-text" placeholder="Grasa corporal (kg)" >
+	<input type="text" name="datosAntroespgrasaporce" maxlength="350" class="dzencf-text" placeholder="Grasa corporal (%)" >
+	<input type="text" name="datosAntroespmasakg" maxlength="350" class="dzencf-text" placeholder="Masa magra (kg)" >
+	<input type="text" name="datosAntroespmasaporcen" maxlength="350" class="dzencf-text" placeholder="Masa magra (%)" >
+	<input type="text" name="datosAntroespmasapmuskg" maxlength="350" class="dzencf-text" placeholder="Masa muscular (kg)" >
+	<input type="text" name="datosAntroespmasapmusporcentaje" maxlength="350" class="dzencf-text" placeholder="Masa muscular (%)" >
+
+
+	<div>
+		Instrucciones y objetivos específicos: Este apartado nos servirá para conocer actualmente cuál es su manera general de comer y así poder definir los aspectos generales de su plan de Alimentación. 
+	</div></br>
+	<strong>Patrón de alimentación</strong><br>
+	Tiempo de comida<br>
+	<!-- inicio desplegable -->
+	<div class="dzen_container">
+		<div class="dzen_column_DD_span11">
+			<div class="dzen-accordion" data-expanded="1" role="tablist">
+				<!-- nueva entrada -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-23" aria-controls="ui-accordion-1-panel-23" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				1° Comida</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-23" aria-labelledby="ui-accordion-1-header-23" role="tabpane23" aria-expanded="false" aria-hidden="true">
+					
+					<div class="dzen_column_DD_span11"></div>
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic1h" maxlength="350" class="dzencf-text" placeholder="Horario (hrs.min)" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="patronalic1l" maxlength="350" class="dzencf-text" placeholder="Ubicación (lugar)" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic1d" maxlength="350" class="dzencf-text" placeholder="Duración (min)" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin entrada -->
+				<!-- nueva entrada -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-24" aria-controls="ui-accordion-1-panel-24" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				2° Comida</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-24" aria-labelledby="ui-accordion-1-header-24" role="tabpane24" aria-expanded="false" aria-hidden="true">
+					
+					<div class="dzen_column_DD_span11"></div>
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic2h" maxlength="350" class="dzencf-text" placeholder="Horario (hrs.min)" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="patronalic2l" maxlength="350" class="dzencf-text" placeholder="Ubicación (lugar)" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic2d" maxlength="350" class="dzencf-text" placeholder="Duración (min)" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin entrada -->
+				<!-- nueva entrada -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-25" aria-controls="ui-accordion-1-panel-25" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				3° Comida</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-25" aria-labelledby="ui-accordion-1-header-25" role="tabpane25" aria-expanded="false" aria-hidden="true">
+					
+					<div class="dzen_column_DD_span11"></div>
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic3h" maxlength="350" class="dzencf-text" placeholder="Horario (hrs.min)" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="patronalic3l" maxlength="350" class="dzencf-text" placeholder="Ubicación (lugar)" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic3d" maxlength="350" class="dzencf-text" placeholder="Duración (min)" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin entrada -->
+				<!-- nueva entrada -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-26" aria-controls="ui-accordion-1-panel-26" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				4° Comida</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-26" aria-labelledby="ui-accordion-1-header-26" role="tabpane26" aria-expanded="false" aria-hidden="true">
+					
+					<div class="dzen_column_DD_span11"></div>
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic4h" maxlength="350" class="dzencf-text" placeholder="Horario (hrs.min)" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="patronalic4l" maxlength="350" class="dzencf-text" placeholder="Ubicación (lugar)" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic4d" maxlength="350" class="dzencf-text" placeholder="Duración (min)" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin entrada -->
+				<!-- nueva entrada -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-27" aria-controls="ui-accordion-1-panel-27" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				5° Comida</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-27" aria-labelledby="ui-accordion-1-header-27" role="tabpane27" aria-expanded="false" aria-hidden="true">
+					
+					<div class="dzen_column_DD_span11"></div>
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic5h" maxlength="350" class="dzencf-text" placeholder="Horario (hrs.min)" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="patronalic5l" maxlength="350" class="dzencf-text" placeholder="Ubicación (lugar)" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic5d" maxlength="350" class="dzencf-text" placeholder="Duración (min)" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin entrada -->
+				<!-- nueva entrada -->
+				<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-28" aria-controls="ui-accordion-1-panel-28" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+				6° Comida</h3>
+				<div class="ui-accordion-content" id="ui-accordion-1-panel-28" aria-labelledby="ui-accordion-1-header-28" role="tabpane28" aria-expanded="false" aria-hidden="true">
+					
+					<div class="dzen_column_DD_span11"></div>
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic6h" maxlength="350" class="dzencf-text" placeholder="Horario (hrs.min)" required="">
+						</div>
+					</div>
+					<div class="dzen_column_DD_span4">
+
+						<div class="margin_bottom">
+
+							<input type="text" name="patronalic6l" maxlength="350" class="dzencf-text" placeholder="Ubicación (lugar)" required="">
+
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span6">
+
+						<div class="margin_bottom">
+							<input type="text" name="patronalic6d" maxlength="350" class="dzencf-text" placeholder="Duración (min)" required="">
+						</div>
+					</div>
+					
+				</div>
+				<!-- fin entrada -->
+			</div>
+		</div>
+	</div>
+	<!-- fin desplegable -->
+
+</div>
+
+<!-- fin tab 7 -->
 
 </div>
 
@@ -1500,6 +1816,8 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
         $('#FormularioFarma').css("display", "none");
     }
 });
+
+
 
 
 
