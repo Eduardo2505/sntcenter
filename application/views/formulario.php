@@ -57,7 +57,12 @@
 							<li>
 								<a href="#tab-7">Paso 7</a>
 							</li>
-							
+							<li>
+								<a href="#tab-8">Paso 8</a>
+							</li>
+							<li>
+								<a href="#tab-9">Paso 9</a>
+							</li>
 
 						</ul>
 
@@ -1755,6 +1760,365 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 </div>
 
 <!-- fin tab 7 -->
+<!-- inicio tab 8 -->
+<div id="tab-8">
+	<form action="#" method="post" class="contact-form">
+		<div>
+			Instrucciones y objetivos específicos: Este apartado nos servirá para saber qué tan activo es su estilo de vida, esto nos servirá para poder calcular de la manera más exacta posible la energía (kcal) que necesita cada día para lograr alcanzar sus metas y objetivos. Esta primera tabla hace alusión a los días que entrena y/o hace ejercicio. (Deben sumar 24 horas)
+		</div><br>
+
+		<strong>Patrón de actividades diarias (Días de entrenamiento)</strong><br>
+		Tipo de actividad<hr>
+		<h4>Dormido</h4>
+		Actividad : Dormido profundamente
+		<input type="text" name="padDormido" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Recostado</h4>
+		Actividad : Despierto, descansando acostado sin hacer nada
+		<input type="text" name="padRecostado" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Muy sedentario</h4>
+		Actividad : Sentado, mirando TV o escuchando música, viajar
+		<input type="text" name="padMuysedentario" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Sedentario </h4>
+		Actividad : Trabajo de oficina, conducir, hablar, leer
+		<input type="text" name="padsedentario" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Muy ligeramente activo </h4>
+		Actividad : Caminar ligero, estar de pie, moverse poco
+		<input type="text" name="padmuyligeramenteactivo" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Ligeramente activo</h4>
+		Actividad : Limpieza doméstica, trabajo de taller, cuidar niños
+		<input type="text" name="padligeramenteactivo" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Moderadamente activo</h4>
+		Actividad : Trotar, bicicleta suave, limpieza pesada, mesero
+		<input type="text" name="padmoderadamenteactivo" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Activo</h4>
+		Actividad : Correr, bailar, carpintero, jardinero, cargar cosas
+		<input type="text" name="padactivo" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Muy activo</h4>
+		Actividad : Albañil, agricultor, ganadero, cargar cosa pesada
+		<input type="text" name="padmuyactivo" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Extremadamente activo</h4>
+		Actividad : Deportes y entrenamiento de moderada-alta intensidad
+		<input type="text" name="padExtemadamenteactivo" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+
+		<div>
+			Instrucciones y objetivos específicos: Este apartado nos servirá para saber qué tan activo es su estilo de vida, esto nos servirá para poder calcular de la manera más exacta posible la energía (kcal) que necesita cada día para lograr alcanzar sus metas y objetivos. Esta segunda tabla hace alusión a los días que descansa o no puede hacer ejercicio por cualquier razón. (Deben sumar 24 horas en total).
+		</div><br>
+
+		<strong>Patrón de actividades diarias (Días de descanso)</strong><br>
+		Tipo de actividad<hr>
+		<h4>Dormido</h4>
+		Actividad : Dormido profundamente
+		<input type="text" name="padDormidodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Recostado</h4>
+		Actividad : Despierto, descansando acostado sin hacer nada
+		<input type="text" name="padRecostadodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Muy sedentario</h4>
+		Actividad : Sentado, mirando TV o escuchando música, viajar
+		<input type="text" name="padMuysedentariodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Sedentario </h4>
+		Actividad : Trabajo de oficina, conducir, hablar, leer
+		<input type="text" name="padsedentariodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Muy ligeramente activo </h4>
+		Actividad : Caminar ligero, estar de pie, moverse poco
+		<input type="text" name="padmuyligeramenteactivodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Ligeramente activo</h4>
+		Actividad : Limpieza doméstica, trabajo de taller, cuidar niños
+		<input type="text" name="padligeramenteactivodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Moderadamente activo</h4>
+		Actividad : Trotar, bicicleta suave, limpieza pesada, mesero
+		<input type="text" name="padmoderadamenteactivodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Activo</h4>
+		Actividad : Correr, bailar, carpintero, jardinero, cargar cosas
+		<input type="text" name="padactivodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Muy activo</h4>
+		Actividad : Albañil, agricultor, ganadero, cargar cosa pesada
+		<input type="text" name="padmuyactivodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+		<h4>Extremadamente activo</h4>
+		Actividad : Deportes y entrenamiento de moderada-alta intensidad
+		<input type="text" name="padExtemadamenteactivodes" maxlength="350" class="dzencf-text" placeholder="Horas diarias en esas actividades" >
+
+
+		<div>
+			Instrucciones y objetivos específicos: Este apartado nos servirá para saber qué tan activo es su estilo de vida, que horarios dispone para comer, para preparar sus comidas, para entrenar y a qué hora duerme y se levanta, todo esto con el fin de personalizar el plan de Alimentación y Entrenamiento a su estilo de vida. 
+		</div><br>
+
+		<strong>Patrón de Estilo de vida</strong><br>
+		Tipo de actividad<hr>
+		<div class="dzen_container">
+			<div class="dzen_column_DD_span11">
+
+				<div class="dzen_column_DD_span11"></div>
+				<div class="dzen_column_DD_span6">
+
+					<div class="margin_bottom">
+						<input type="text" name="pEVidaTipo" maxlength="350" class="dzencf-text" placeholder="Tipo de actividad diaria, Ejemplo :Despertarse por la mañana" >
+
+					</div>
+				</div>
+				<div class="dzen_column_DD_span4">
+
+					<div class="margin_bottom">
+
+						<input type="text" name="pEVidaTipo" maxlength="350" class="dzencf-text" placeholder="Horario" >
+
+					</div>
+				</div>
+
+				<div class="dzen_column_DD_span1">
+
+					<div class="margin_bottom">
+						<a href="#" target="_self" class="dzen-button dzen-button_blue dzen-button_rounded dzen-button_small">+</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- fin del contenido -->
+		<!-- inicia contenido -->
+		<div>
+			Instrucciones y objetivos específicos: Este apartado nos servirá para conocer actualmente cuál es su manera de comer día a día y así poder definir los aspectos específicos de su plan de Alimentación. 
+		</div></br>
+		<strong>Recordatorio de alimentos de 41 horas</strong><br>
+		Tiempo de comida<br>
+		<!-- inicio desplegable -->
+		<div class="dzen_container">
+			<div class="dzen_column_DD_span11">
+				<div class="dzen-accordion" data-expanded="1" role="tablist">
+					<!-- nueva entrada -->
+					<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-40" aria-controls="ui-accordion-1-panel-40" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+					1° Comida</h3>
+					<div class="ui-accordion-content" id="ui-accordion-1-panel-40" aria-labelledby="ui-accordion-1-header-40" role="tabpane40" aria-expanded="false" aria-hidden="true">
+
+						<div class="dzen_column_DD_span11"></div>
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="recordatorioAlimentos24hras1h" maxlength="350" class="dzencf-text" placeholder="¿A qué hora?" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+
+								<input type="text" name="ecordatorioAlimentos24hras1d" maxlength="350" class="dzencf-text" placeholder="¿En dónde?" >
+
+							</div>
+						</div>
+
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras1q" maxlength="350" class="dzencf-text" placeholder="¿Qué comió? (tipo de alimento y bebida)" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras1c" maxlength="350" class="dzencf-text" placeholder="¿Cuándo comió? (cantidades)" >
+							</div>
+						</div>
+
+
+					</div>
+					<!-- fin entrada -->
+					<!-- nueva entrada -->
+					<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-41" aria-controls="ui-accordion-1-panel-41" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+					2° Comida</h3>
+					<div class="ui-accordion-content" id="ui-accordion-1-panel-41" aria-labelledby="ui-accordion-1-header-41" role="tabpane41" aria-expanded="false" aria-hidden="true">
+
+						<div class="dzen_column_DD_span11"></div>
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="recordatorioAlimentos24hras2h" maxlength="350" class="dzencf-text" placeholder="¿A qué hora?" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+
+								<input type="text" name="ecordatorioAlimentos24hras2d" maxlength="350" class="dzencf-text" placeholder="¿En dónde?" >
+
+							</div>
+						</div>
+
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras2q" maxlength="350" class="dzencf-text" placeholder="¿Qué comió? (tipo de alimento y bebida)" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras2c" maxlength="350" class="dzencf-text" placeholder="¿Cuándo comió? (cantidades)" >
+							</div>
+						</div>
+
+					</div>
+					<!-- fin entrada -->
+					<!-- nueva entrada -->
+					<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-42" aria-controls="ui-accordion-1-panel-42" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+					3° Comida</h3>
+					<div class="ui-accordion-content" id="ui-accordion-1-panel-42" aria-labelledby="ui-accordion-1-header-42" role="tabpane42" aria-expanded="false" aria-hidden="true">
+
+						<div class="dzen_column_DD_span11"></div>
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="recordatorioAlimentos24hras3h" maxlength="350" class="dzencf-text" placeholder="¿A qué hora?" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+
+								<input type="text" name="ecordatorioAlimentos24hras3d" maxlength="350" class="dzencf-text" placeholder="¿En dónde?" >
+
+							</div>
+						</div>
+
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras3q" maxlength="350" class="dzencf-text" placeholder="¿Qué comió? (tipo de alimento y bebida)" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras3c" maxlength="350" class="dzencf-text" placeholder="¿Cuándo comió? (cantidades)" >
+							</div>
+						</div>
+
+					</div>
+					<!-- fin entrada -->
+					<!-- nueva entrada -->
+					<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-43" aria-controls="ui-accordion-1-panel-43" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+					4° Comida</h3>
+					<div class="ui-accordion-content" id="ui-accordion-1-panel-43" aria-labelledby="ui-accordion-1-header-43" role="tabpane43" aria-expanded="false" aria-hidden="true">
+
+						<div class="dzen_column_DD_span11"></div>
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="recordatorioAlimentos24hras4h" maxlength="350" class="dzencf-text" placeholder="¿A qué hora?" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+
+								<input type="text" name="ecordatorioAlimentos24hras4d" maxlength="350" class="dzencf-text" placeholder="¿En dónde?" >
+
+							</div>
+						</div>
+
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras4q" maxlength="350" class="dzencf-text" placeholder="¿Qué comió? (tipo de alimento y bebida)" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras4c" maxlength="350" class="dzencf-text" placeholder="¿Cuándo comió? (cantidades)" >
+							</div>
+						</div>
+
+					</div>
+					<!-- fin entrada -->
+					<!-- nueva entrada -->
+					<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-44" aria-controls="ui-accordion-1-panel-44" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+					5° Comida</h3>
+					<div class="ui-accordion-content" id="ui-accordion-1-panel-44" aria-labelledby="ui-accordion-1-header-44" role="tabpane44" aria-expanded="false" aria-hidden="true">
+
+						<div class="dzen_column_DD_span11"></div>
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="recordatorioAlimentos24hras5h" maxlength="350" class="dzencf-text" placeholder="¿A qué hora?" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+
+								<input type="text" name="ecordatorioAlimentos24hras5d" maxlength="350" class="dzencf-text" placeholder="¿En dónde?" >
+
+							</div>
+						</div>
+
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras5q" maxlength="350" class="dzencf-text" placeholder="¿Qué comió? (tipo de alimento y bebida)" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras5c" maxlength="350" class="dzencf-text" placeholder="¿Cuándo comió? (cantidades)" >
+							</div>
+						</div>
+
+					</div>
+					<!-- fin entrada -->
+					<!-- nueva entrada -->
+					<h3 class="ui-accordion-header" role="tab" id="ui-accordion-1-header-45" aria-controls="ui-accordion-1-panel-45" aria-selected="false" tabindex="0"><span class="ui-accordion-header-icon"></span>
+					6° Comida</h3>
+					<div class="ui-accordion-content" id="ui-accordion-1-panel-45" aria-labelledby="ui-accordion-1-header-45" role="tabpane45" aria-expanded="false" aria-hidden="true">
+						<div class="dzen_column_DD_span11"></div>
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="recordatorioAlimentos24hras6h" maxlength="350" class="dzencf-text" placeholder="¿A qué hora?" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+
+								<input type="text" name="ecordatorioAlimentos24hras6d" maxlength="350" class="dzencf-text" placeholder="¿En dónde?" >
+
+							</div>
+						</div>
+
+						<div class="dzen_column_DD_span6">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras6q" maxlength="350" class="dzencf-text" placeholder="¿Qué comió? (tipo de alimento y bebida)" >
+							</div>
+						</div>
+						<div class="dzen_column_DD_span5">
+
+							<div class="margin_bottom">
+								<input type="text" name="ecordatorioAlimentos24hras6c" maxlength="350" class="dzencf-text" placeholder="¿Cuándo comió? (cantidades)" >
+							</div>
+						</div>
+
+					</div>
+					<!-- fin entrada -->
+				</div>
+			</div>
+		</div>
+		<!-- fin desplegable -->
+		<!-- fin del contenido -->
+
+	</form>
+</div>
+<!-- fin tab 8 -->
+
+<!-- inicio tab 9 -->
+<div id="tab-9">
+	<form action="#" method="post" class="contact-form">
+		<div>
+			Instrucciones y objetivos específicos: Este apartado nos servirá para reconocer el estado actual de su condición, son fotografías de expediente, sin que se mire su rostro, de cuerpo completo, con la menor cantidad de ropa posible, para apreciar los cambios a través del tiempo inducidos por los planes de Alimentación y Entrenamiento. 
+		</div><br>
+	</form>
+</div>
+<!-- fin tab 9 -->
 
 </div>
 
@@ -1765,13 +2129,7 @@ aria-labelledby="ui-accordion-1-header-12" role="tabpane12" aria-expanded="false
 
 </div>
 
-
-
-
-
-
-
-
+Nota aclaratoria: La información obtenida en este cuestionario  para uso profesional del equipo “SNT Center” y así poder brindarle el mejor servicio que sea posible. Dicha información será tratada con la mayor confidencialidad y por ningún motivo se hará pública su divulgación. Gracias por la confianza en nuestro trabajo. 
 
 
 </div>
