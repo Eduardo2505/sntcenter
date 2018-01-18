@@ -51,8 +51,8 @@ class Welcome extends CI_Controller {
 		$data['meses']="N/A";
 		$data['costoConsulta']="1,100";
 		$data['costoProgramaTotal']="3,300";
-		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/2-consulta-12-semanas.html";
-		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/3-consulta-12-semanas.html";
+		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/2-12-semanas.html";
+		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/3-plan-12-semanas.html";
 		$data['numConsultas']="3";
 		$this->load->view('plan',$data);
 	}
