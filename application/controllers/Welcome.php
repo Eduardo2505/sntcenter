@@ -3,7 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
-	private $destinatario="gomezluisnutricion@hotmail.com";
+	///private $destinatario="gomezluisnutricion@hotmail.com";
+	private $destinatario="eduardopadillacz@gmail.com";
 
 	function __construct() {
 		parent::__construct();
