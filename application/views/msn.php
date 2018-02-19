@@ -16,7 +16,7 @@
 				</div>
 				<div class="span4 right_aligned">
 					<div class="breadcrumbs">
-						<a href="index.html">Inicios</a> 
+						<a href="<?php echo site_url('') ?>">Inicios</a> 
 						<i class="ABdev_icon-chevron-right"></i> 
 						<span class="current">Mensaje enviado
 						</span>

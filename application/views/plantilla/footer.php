@@ -3,9 +3,14 @@
 		<div class="row">
 			<div class="span3 clearfix">
 				<div class="widget">
-					<h3>¿Qué hacemos?</h3>
-					<div class="textwidget">
-						Trabajamos conforme a un plan integral para lograr y conseguir la meta que te propongas, ya sea de salud y bienestar,de recomposición corporal con enfoque estético.
+					<h3>Faccebok</h3>
+				
+					
+					<div class="rpwe-block" >
+				
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSNTCenter.SportNutritionandTrainningCenter%2F&tabs=timeline&width=250&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					
+
 					</div>
 				</div>
 			</div>
@@ -38,29 +43,29 @@
 					<div class="rpwe-block">
 								<ul>
 									<li>
-										<a href="<?php echo site_url('') ?>plan-12-semanas" title="12 Semanas" rel="bookmark">
-											<img src="<?php echo site_url('') ?>images/12-semanas.jpg" class="rpwe-thumb" alt="12 Semanas" title="96 Semanas">								
+										<a href="<?php echo site_url('') ?>ponencia-academica" title="Ponencia Académica" rel="bookmark">
+											<img src="<?php echo site_url('') ?>images/Ponenciaacademica.jpg" class="rpwe-thumb" alt="Ponencia Académica" title="Ponencia Académica">								
 										</a>
 										<h3 class="rpwe-title">
-											<a href="<?php echo site_url('') ?>plan-12-semanas" title="12 Semanas" rel="bookmark">12 Semanas</a>
+											<a href="<?php echo site_url('') ?>ponencia-academica" title="Ponencia Académica" rel="bookmark">Ponencia Académica</a>
 										</h3>
 										<time class="rpwe-time" >Ver ahora</time>
 									</li>
 									<li>
-										<a href="<?php echo site_url('') ?>plan-96-semanas" title="96 Semanas" rel="bookmark">
-											<img src="<?php echo site_url('') ?>images/96-semanas.jpg" class="rpwe-thumb" alt="96 Semanas" title="96 Semanas">								
+										<a href="<?php echo site_url('') ?>clase-privada-academica" title="Clase privada académica" rel="bookmark">
+											<img src="<?php echo site_url('') ?>images/clasesPriva.jpg" class="rpwe-thumb" alt="Clase privada académica" title="Clase privada académica">								
 										</a>
 										<h3 class="rpwe-title">
-											<a href="<?php echo site_url('') ?>plan-96-semanas" title="96 Semanas" rel="bookmark">96 Semanas</a>
+											<a href="<?php echo site_url('') ?>clase-privada-academica" title="Clase privada académica" rel="bookmark">Clase privada académica</a>
 										</h3>
 										<time class="rpwe-time" >Ver ahora</time>
 									</li>
 									<li>
-										<a href="<?php echo site_url('') ?>plan-60-semanas" title="60 Semanas" rel="bookmark">
-											<img src="<?php echo site_url('') ?>images/60-semanas.jpg" class="rpwe-thumb" alt="So many great places" title="So many great places">								
+										<a href="<?php echo site_url('') ?>equipo-para-seguimiento-consulta" title="Equipo para seguimiento de la consulta" rel="bookmark">
+											<img src="<?php echo site_url('') ?>images/Equiponutricional.jpg" class="rpwe-thumb" alt="Equipo para seguimiento de la consulta" title="Equipo para seguimiento de la consulta">								
 										</a>
 										<h3 class="rpwe-title">
-											<a href="<?php echo site_url('') ?>plan-60-semanas" title="60 Semanas" rel="bookmark">60 Semanas</a>
+											<a href="<?php echo site_url('') ?>equipo-para-seguimiento-consulta" title="Equipo para seguimiento de la consulta" rel="bookmark">Equipo para seguimiento de la consulta</a>
 										</h3>
 										<time class="rpwe-time" >Ver ahora</time>
 									</li>

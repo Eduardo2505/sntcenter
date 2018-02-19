@@ -16,7 +16,7 @@
 				</div>
 				<div class="span4 right_aligned">
 					<div class="breadcrumbs">
-						<a href="index.html">Inicios</a> 
+						<a href="<?php echo site_url('') ?>">Inicios</a> 
 						<i class="ABdev_icon-chevron-right"></i> 
 						<span class="current">¿Quién soy yo ?
 						</span>
@@ -43,7 +43,7 @@
 						</div>
 						<a class="dzen_team_member_link dzen_team_member_modal_link" href="">
 							<span class="dzen_team_member_name">L.N. Luis Alberto Gómez Martín</span>
-							<span class="dzen_team_member_position">WhatsApp: 278 113 05 44 </span>
+							<span class="dzen_team_member_position">WhatsApp: 378 113 05 44 </span>
 							<span class="dzen_team_member_position">gomezluisnutricion@hotmail.com  </span>
 						</a>
 						
@@ -51,13 +51,7 @@
 						
 					</div>
 
-					<strong style="text-transform: uppercase;">Logros profesionales destacados.</strong><br>
-					<br><strong>2017</strong> Asesoramiento nutricional del 4to lugar categoría Master 30 en el evento “Mr. Charro, el Legado”, en León, Guanajuato. 
-					<br><strong>2016</strong> Asesoramiento nutricional y de entrenamiento del 2do lugar categoría infantil menor en la Liga de Ciclismo de Montaña de Occidente (LICIMO), México. 
-					<br><strong>2016</strong> Asesoramiento nutricional y de entrenamiento del 5do lugar categoría infantil mayor en la Liga de Ciclismo de Montaña de Occidente (LICIMO), México. 
-					<br><strong>2016</strong> Asesoramiento nutricional y de entrenamiento del 5do lugar categoría mayores 20´s en la Copa Nacional de Ciclismo de Montaña, México. 
-
-					<br><br><br>
+					
 					<strong style="text-transform: uppercase;">Experiencia laboral</strong><br><br>
 					<strong>2015 a la fecha</strong> CEO, consulta nutricional privada y entrenamiento deportivo personal en "SNT Center (Sport Nutrition and Trainning Center)", Capilla de Guadalupe, Jalisco, México. 
 				</br><strong>2017 a la fecha</strong> Ponente en el "Curso superior de Nutricion deportiva, suplementación y ayudas ergogenicas" en la plataforma virtual española FiveStars Heatlh and Fitness School con el tema: "Suplementación y ayudas ergogenicas".
@@ -85,7 +79,13 @@
 			<br><strong>2016</strong> Certificación en “Entrenador profesional en musculación” por la Academia de Fisicoconstructivismo y Fitness del Estado de Jalisco (AFFEJ) afiliada a la Asociación Mexicana de Fisicoculturismo y Acondicionamiento Físico (AMFAF), y la National Amateur Bodybuilders Association (NABBA International) afiliada a la World Fitness Federation (WFF), con el aval del Centro Iberoamericano de Ciencias del Deporte (CICD) y el Instituto de Estudios Superiores de Ingeniería Educativa.
 			<br><strong>2016</strong> Certificación en “Nutrición especializada al Fisicoconstructivismo” por la Academia de Fisicoconstructivismo y Fitness del Estado de Jalisco (AFFEJ) afiliada a la Asociación Mexicana de Fisicoculturismo y Acondicionamiento Físico (AMFAF), y la National Amateur Bodybuilders Association (NABBA International) afiliada a la World Fitness Federation (WFF), con el aval del Centro Iberoamericano de Ciencias del Deporte (CICD) y el Instituto de Estudios Superiores de Ingeniería Educativa. 
 			<br><strong>2012 – 2017</strong> Licenciatura en Nutrición. Centro Universitario de los Altos (CUAltos), Universidad de Guadalajara (UDG), Tepatitlán de Morelos, Jalisco, México. 
+<br><br><br> <strong style="text-transform: uppercase;">Logros profesionales destacados.</strong><br>
+					<br><strong>2017</strong> Asesoramiento nutricional del 4to lugar categoría Master 30 en el evento “Mr. Charro, el Legado”, en León, Guanajuato. 
+					<br><strong>2016</strong> Asesoramiento nutricional y de entrenamiento del 2do lugar categoría infantil menor en la Liga de Ciclismo de Montaña de Occidente (LICIMO), México. 
+					<br><strong>2016</strong> Asesoramiento nutricional y de entrenamiento del 5do lugar categoría infantil mayor en la Liga de Ciclismo de Montaña de Occidente (LICIMO), México. 
+					<br><strong>2016</strong> Asesoramiento nutricional y de entrenamiento del 5do lugar categoría mayores 20´s en la Copa Nacional de Ciclismo de Montaña, México. 
 
+				
 			<br><br><br><strong style="text-transform: uppercase;">Formación continúa.</strong><br>
 			<br><strong>Septiembre de 2015</strong> Asistente al “Congreso Internacional de Nutrición y Ciencias Aplicadas al Deporte (COINCIDE)” cede en el Centro Universitario de los Altos (CUAltos) de la Universidad de Guadalajara (UDG), Tepatitlán de Morelos, Jalisco, México. 
 			<br><strong>Febrero de 2015</strong> Asistente al curso “Calidad alimentaria y seguridad del paciente” en el “XVII Congreso Internacional de Avances en Medicina, Hospital Civil de Guadalajara” cede Expo Guadalajara, Jalisco, México. 

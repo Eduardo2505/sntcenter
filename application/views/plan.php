@@ -16,7 +16,7 @@
 				</div>
 				<div class="span4 right_aligned">
 					<div class="breadcrumbs">
-						<a href="index.html">Inicios</a> 
+						<a href="i<?php echo site_url('') ?>">Inicio</a> 
 						<i class="ABdev_icon-chevron-right"></i> 
 						<span class="current"><?php echo $titulo?>
 						</span>
@@ -53,6 +53,7 @@
 <section class="dzen_section_DD no_padding_top">
 		<div class="dzen_section_content">
 			<div class="dzen_container">
+				<div class="dzen_column_DD_span3 "></div>
 				<div class="dzen_column_DD_span6 ">
 					<div class="dzen_pricing-table-2">
 						<div class="dzen_plan dzen_plan5">
@@ -71,7 +72,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="dzen_column_DD_span6 ">
+			<!-- 	<div class="dzen_column_DD_span6 ">
 					<div class="dzen_pricing-table-2">
 						<div class="dzen_plan dzen_plan6 dzen_popular-plan">
 							<div class="dzen_pricebox_header">
@@ -86,7 +87,7 @@
 							</div>          
 						</div>
 					</div>
-				</div>
+				</div> -->
 			<!-- 	<div class="dzen_column_DD_span3 ">
 					<div class="dzen_pricing-table-2">
 						<div class="dzen_plan dzen_plan7">
@@ -141,10 +142,12 @@
 
 				<br><br><strong style="text-transform: uppercase;">¿Qué promociones tienen 
 				los paquetes de Planes integrales (no aplican para la consulta simple)?</strong>
-<br>Promoción A: En la contratación de dos planes (aplicable a 12, 24 y 36 semanas): 5% de descuento adicional a cada uno. 
-<br>Promoción B: En la contratación de tres planes (aplicable a 12, 24 y 36 semanas): 10% de descuento adicional a cada uno. 
-<br>Promoción C: En la contratación de dos planes (aplicable a 48, 60 72 semanas): 15% de descuento adicional a cada uno.
-<br>Promoción D: En la contratación de tres planes (aplicable a 48, 60 y 72 semanas): 20% de descuento adicional a cada uno.
+<br>Promoción A: En la contratación de dos planes (aplicable a 12, 24 y 36 semanas): 10% de descuento adicional a cada uno. 
+<br>Promoción B: En la contratación de tres planes (aplicable a 12, 24 y 36 semanas): 15% de descuento adicional a cada uno. 
+<br>Promoción C: En la contratación de dos planes (aplicable a 48, 60 72 semanas): 20% de descuento adicional a cada uno.
+<br>Promoción D: En la contratación de tres planes (aplicable a 48, 60 y 72 semanas): 25% de descuento adicional a cada uno.
+<br>Promoción E: En la contratación de 2 planes o más ( 96 semanas): 30% de descuento adicional a cada uno.
+<br>Promoción Amigo: Por cada paciente nuevo recomendado siguiente consulta gratis.
 
 		</div>
 	</section>

@@ -50,8 +50,8 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Plan Integral 12 semanas";
 		$data['imagen']="12semanasF.jpg";
 		$data['meses']="N/A";
-		$data['costoConsulta']="1,100";
-		$data['costoProgramaTotal']="3,300";
+		$data['costoConsulta']="900";
+		$data['costoProgramaTotal']="2,700";
 		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/2-12-semanas.html";
 		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/3-plan-12-semanas.html";
 		$data['numConsultas']="3";
@@ -69,8 +69,8 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Plan Integral 24 semanas";
 		$data['imagen']="24semanasF.jpg";
 		$data['meses']="N/A";
-		$data['costoConsulta']="1,050";
-		$data['costoProgramaTotal']="6,300";
+		$data['costoConsulta']="850";
+		$data['costoProgramaTotal']="5,100";
 		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/5-consulta-24-semanas.html";
 		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/4-plan-24-semanas.html";
 		$data['numConsultas']="6";
@@ -88,8 +88,8 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Plan Integral 36 semanas";
 		$data['imagen']="36semanasF.jpg";
 		$data['meses']="N/A";
-		$data['costoConsulta']="950";
-		$data['costoProgramaTotal']="8,550";
+		$data['costoConsulta']="800";
+		$data['costoProgramaTotal']="7,200";
 		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/6-consulta-36-semanas.html";
 		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/7-plan-36-semanas.html";
 		$data['numConsultas']="9";
@@ -108,8 +108,8 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Plan Integral 48 semanas";
 		$data['imagen']="48semanasF.jpg";
 		$data['meses']="N/A";
-		$data['costoConsulta']="900";
-		$data['costoProgramaTotal']="11,700";
+		$data['costoConsulta']="750";
+		$data['costoProgramaTotal']="9,750";
 		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/9-consulta-48-semanas.html";
 		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/8-plan-48-semanas.html";
 		$data['numConsultas']="12";
@@ -127,8 +127,8 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Plan Integral 60 semanas";
 		$data['imagen']="60semanasF.jpg";
 		$data['meses']="N/A";
-		$data['costoConsulta']="850";
-		$data['costoProgramaTotal']="12,750";
+		$data['costoConsulta']="700";
+		$data['costoProgramaTotal']="11,200";
 		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/10-consulta-60-semanas.html";
 		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/11-plan-60-semanas.html";
 		$data['numConsultas']="15";
@@ -147,8 +147,8 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Plan Integral 72 semanas";
 		$data['imagen']="72semanasF.jpg";
 		$data['meses']="N/A";
-		$data['costoConsulta']="800";
-		$data['costoProgramaTotal']="14,400";
+		$data['costoConsulta']="650";
+		$data['costoProgramaTotal']="11,700";
 		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/13-consulta-72-semanas.html";
 		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/12-plan-72-semanas.html";
 		$data['numConsultas']="18";
@@ -166,8 +166,8 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Plan Integral 96 semanas";
 		$data['imagen']="96semanasF.jpg";
 		$data['meses']="N/A";
-		$data['costoConsulta']="700";
-		$data['costoProgramaTotal']="16,800";
+		$data['costoConsulta']="600";
+		$data['costoProgramaTotal']="14,400";
 		$data['linkConsulta']="https://sntcenter.com.mx/planes/inicio/14-consulta-96-semanas.html";
 		$data['linkProgramaTotal']="https://sntcenter.com.mx/planes/inicio/15-plan-96-semanas.html";
 		$data['numConsultas']="24";
@@ -239,6 +239,44 @@ class Welcome extends CI_Controller {
 		}
 
 	}
+
+
+	public function ponenciaaca()
+	{
+		
+		$datam['activar'] ='planes';
+		$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
+		$data['titulo']="Ponencia Académica";
+		$data['imagen']="Ponenciaacademica.jpg";
+		$data['costoConsulta']="1,25";
+		$data['linkConsulta']="#";
+		$this->load->view('serviciosprivados',$data);
+	}
+
+	public function clase()
+	{
+		
+		$datam['activar'] ='planes';
+		$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
+		$data['titulo']="Clase privada académica";
+		$data['imagen']="clasesPriva.jpg";
+		$data['costoConsulta']="1,25";
+		$data['linkConsulta']="#";
+		$this->load->view('serviciosprivados',$data);
+	}
+
+	public function equipo()
+	{
+		
+		$datam['activar'] ='planes';
+		$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
+		$data['titulo']="Equipo para seguimiento de la consulta";
+		$data['imagen']="Equiponutricional.jpg";
+		$data['costoConsulta']="1,25";
+		$data['linkConsulta']="#";
+		$this->load->view('serviciosprivados',$data);
+	}
+
 
 
 

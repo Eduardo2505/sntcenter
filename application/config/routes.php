@@ -63,5 +63,8 @@ $route['plan-48-semanas'] = "welcome/plan48seman";
 $route['plan-60-semanas'] = "welcome/plan60seman";
 $route['plan-72-semanas'] = "welcome/plan72seman";
 $route['plan-96-semanas'] = "welcome/plan96seman";
+$route['ponencia-academica'] = "welcome/ponenciaaca";
 $route['mensaje-enviado'] = "welcome/eviarEmail";
+$route['clase-privada-academica'] = "welcome/clase";
+$route['equipo-para-seguimiento-consulta'] = "welcome/equipo";
 

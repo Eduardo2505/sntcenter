@@ -34,7 +34,7 @@
 						<div class="tp-caption dzen_text tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="-10" data-speed="300" data-start="600" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300"><p style="color:orange;font-weight: bold;">Somos expertos</p>
 						</div>
 						<!-- LAYER NR. 6 -->
-						<div class="tp-caption dzen_button tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-speed="300" data-start="900" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300">Ver planes
+						<div class="tp-caption dzen_button tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-speed="300" data-start="900" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300"><a href="<?php echo site_url('') ?>planes-integrales" style="color:#FFFFFF">Ver planes</a>
 						</div>
 					</li>
 					<!-- SLIDE  -->
@@ -58,7 +58,7 @@
 							<p style="color:orange;font-weight: bold;">Disfrtuta de muchos veneficios más</p>
 						</div>
 						<!-- LAYER NR. 5 -->
-						<div class="tp-caption dzen_button tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-speed="300" data-start="1200" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300">Conseguir
+						<div class="tp-caption dzen_button tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-speed="300" data-start="1200" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300"><a href="<?php echo site_url('') ?>planes-integrales" style="color:#FFFFFF">Ver planes</a>
 						</div>
 					</li>
 					<!-- SLIDE  -->
@@ -74,13 +74,13 @@
 						<div class="tp-caption dzen_title tp-fade" data-x="center" data-hoffset="0" data-y="60"  data-speed="300" data-start="300" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300">Aceptamos todos los métodos de pago
 						</div>
 						<!-- LAYER NR. 3 -->
-						<div class="tp-caption dzen_text tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="-50" data-speed="300" data-start="600" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300">Meses sin Interes
+						<div class="tp-caption dzen_text tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="-50" data-speed="300" data-start="600" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300"><p style="font-weight: bold;">Meses sin Interes</p>
 						</div>
 						<!-- LAYER NR. 4 -->
-						<div class="tp-caption dzen_text tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="-10" data-speed="300" data-start="600" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300">3,5,12
+						<div class="tp-caption dzen_text tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="-10" data-speed="300" data-start="600" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300"><p style="font-weight: bold;">3,5,12</p>
 						</div>
 						<!-- LAYER NR. 5 -->
-						<div class="tp-caption dzen_button tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-speed="300" data-start="900" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300">Planes Integrales
+						<div class="tp-caption dzen_button tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-speed="300" data-start="900" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8700" data-endspeed="300"><a href="<?php echo site_url('') ?>planes-integrales" style="color:#FFFFFF">Planes Integrales</a>
 						</div>
 					</li>
 				</ul>
@@ -97,79 +97,355 @@
 	<section id="our_work" class="dzen_section_DD ">
 		<header>
 			<div class="dzen_container">
-				<h3>Planes Integrales</h3>
-				<p>
-					Trabajamos conforme a un plan integral para lograr conseguir la meta que te propongas, ya sea de salud y bienestar, de recomposición corporal con enfoque estético (aumento de masa muscular y/o disminución de grasa corporal) o de mejora del rendimiento (culturismo y cualquier deporte).
-				</p>
+				<h3>Promociones Consulta Simple</h3>
+
 			</div>
 		</header>
 		<div class="dzen_section_content">
 			<div class="dzen_container">
-				<div class="dzen_column_DD_span12">
-					
-					<div id="dz_latest_portfolio" class="clearfix isotope">
-						<div class="portfolio_item portfolio_item_3 identity illustrations isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/12-semanas.jpg" alt="">
-								<a class="overlay" href="<?php echo site_url('') ?>plan-12-semanas">
-									<p class="overlay_title">12 semanas</p>
-									<!-- <p class="portfolio_item_tags">12 semanas</p> -->
-								</a>
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan1">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">1-2 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">500</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
 							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 branding illustrations isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/24-semanas.jpg" alt="">
-								<a class="overlay" href="<?php echo site_url('') ?>plan-24-semanas">
-									<p class="overlay_title">24 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3  branding identity isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/36-semanas.jpg" alt="">
-								<a class="overlay" href="<?php echo site_url('') ?>plan-36-semanas">
-									<p class="overlay_title">36 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 branding uiux isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/48-semanas.jpg" alt="">
-								<a class="overlay" href="<?php echo site_url('') ?>plan-48-semanas">
-									<p class="overlay_title">48 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 illustrations uiux isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/60-semanas.jpg" alt="">
-								<a class="overlay" href="<?php echo site_url('') ?>plan-60-semanas">
-									<p class="overlay_title">60 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 identity uiux isotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/72-semanas.jpg" alt="">
-								<a class="overlay" href="<?php echo site_url('') ?>plan-72-semanas">
-									<p class="overlay_title">72 semanas</p>
-								</a>
-							</div>
-						</div>
-						<div class="portfolio_item portfolio_item_3 sotope-item">
-							<div class="overlayed">
-								<img src="<?php echo site_url('') ?>images/96-semanas.jpg" alt="">
-								<a class="overlay" href="<?php echo site_url('') ?>plan-96-semanas">
-									<p class="overlay_title">96 semanas</p>
-								</a>
-							</div>
-						</div>
 
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+							
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">0</span>
+								<span class="dzen_pricebox_monthly">S/P</span>
+								<span class="dzen_pricebox_name">0</span>
+							</div>
+							
+
+
+
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">0%</span>
+
+
+							
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
+							</div>          
+						</div>
 					</div>
-					<!-- <div class="more_portfolio_link">
-						<a href="#">Contáctanos</a>
-					</div> -->
+				</div>
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan2 dzen_popular-plan">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">3 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">450</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+							
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">900</span>
+								<span class="dzen_pricebox_monthly">PROMO</span>
+								<span class="dzen_pricebox_name">3 Consultas</span>
+							</div>
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">10%</span>
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
+				</div>
+
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan1">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">4-5 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">500</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+							
+							
+
+							
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">0</span>
+								<span class="dzen_pricebox_monthly">S/P</span>
+								<span class="dzen_pricebox_name">0</span>
+							</div>
+							
+
+
+
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">0%</span>
+
+							
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan2 dzen_popular-plan">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">6 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">400</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+							
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">800</span>
+								<span class="dzen_pricebox_monthly">PROMO</span>
+								<span class="dzen_pricebox_name">6 Consultas</span>
+							</div>
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">20%</span>
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="our_work" class="dzen_section_DD section_with_gray_body" >
+		<div class="dzen_section_content">
+			<div class="dzen_container">
+
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan1">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">7-8 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">500</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+							
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">0</span>
+								<span class="dzen_pricebox_monthly">S/P</span>
+								<span class="dzen_pricebox_name">0</span>
+							</div>
+							
+
+
+
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">0%</span>
+
+
+							
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
+				</div>
+
+
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan2 dzen_popular-plan">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">9 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">350</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+							
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">700</span>
+								<span class="dzen_pricebox_monthly">PROMO</span>
+								<span class="dzen_pricebox_name">9 Consultas</span>
+							</div>
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">30%</span>
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
+				</div>
+
+
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan1">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">10-11 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">500</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+							
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">0</span>
+								<span class="dzen_pricebox_monthly">S/P</span>
+								<span class="dzen_pricebox_name">0</span>
+							</div>
+							
+
+
+
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">0%</span>
+
+
+							
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
+				</div>
+
+
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan2 dzen_popular-plan">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">12 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">300</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+							
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">600</span>
+								<span class="dzen_pricebox_monthly">PROMO</span>
+								<span class="dzen_pricebox_name">12 Consultas</span>
+							</div>
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">40%</span>
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section id="our_work" class="dzen_section_DD" >
+		<div class="dzen_section_content">
+			<div class="dzen_container">
+
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan1">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">13-14 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">500</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+							
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">0</span>
+								<span class="dzen_pricebox_monthly">S/P</span>
+								<span class="dzen_pricebox_name">0</span>
+							</div>
+							
+
+
+
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">0%</span>
+
+
+							
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
+				</div>
+
+				<div class="dzen_column_DD_span3 ">
+					<div class="dzen_pricing-table-2">
+						<div class="dzen_plan dzen_plan2 dzen_popular-plan">
+							<div class="dzen_pricebox_header">
+								<span class="dzen_pricebox_name">15 Consultas</span>
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">250</span>
+								<span class="dzen_pricebox_monthly">C/U</span>
+							</div>
+							
+							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">$50</span>
+
+							<div class="dzen_pricebox_header">
+								
+								<span class="dzen_pricebox_currency">$</span>
+								<span class="dzen_pricebox_price">500</span>
+								<span class="dzen_pricebox_monthly">PROMO</span>
+								<span class="dzen_pricebox_name">15 Consultas</span>
+							</div>
+							<span class="dzen_pricebox_feature">Descuento</span>
+							<span class="dzen_pricebox_feature">50%</span>
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+								<a href="#" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+							</div>          
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
