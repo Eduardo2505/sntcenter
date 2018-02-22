@@ -1,3 +1,5 @@
+
+
 <div class="container">
 	<div id="logo">
 		<a href="<?php echo site_url('') ?>"><img src="<?php echo site_url('') ?>images/logo.png" alt="Dzen"></a>
@@ -29,6 +31,11 @@
 			<li class="<?php  if($activar==="contacto") {echo "current-menu-item"; }?>">
 				<a href="<?php echo site_url('') ?>contacto">Contacto</a>
 			</li>
+
+			<li class="<?php  if($activar==="normativa") {echo "current-menu-item"; }?>">
+				<a href="<?php echo site_url('') ?>normativa-de-servicio">Normatividad del servicio</a>
+			</li>
+
 		</ul>	
 	</nav>
 	<div id="ABdev_menu_toggle">

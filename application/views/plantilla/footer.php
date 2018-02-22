@@ -17,7 +17,7 @@
 			<div class="span3 clearfix">
 				<div class="widget rpwe_widget">
 					<h3>Tweets</h3>
-					<div class="rpwe-block">
+					<div class="rpwe-block" width="250" height="250">
 						<a class="twitter-timeline" data-lang="es" 
 						data-height="250" href="https://twitter.com/SNT_Center?ref_src=twsrc%5Etfw">
 					   </a>
@@ -76,6 +76,7 @@
 		</div>
 	</div>
 </div>
+
 <div id="footer_copyright">
 	<div class="container">
 		<div class="row">

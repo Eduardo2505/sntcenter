@@ -1,0 +1,24 @@
+
+
+.cont_facebook {
+  width: 340px;
+  bottom: -70%;
+  float: left;
+  position: absolute;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all; }
+  .cont_facebook h2 {
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    font-size: 20px;
+    background-color: #22adff;
+    cursor: pointer; }
+  .cont_facebook.right {
+    right: 50px; }
+  .cont_facebook.left {
+    left: 50px; }
+
+.open {
+  bottom: 0%; }

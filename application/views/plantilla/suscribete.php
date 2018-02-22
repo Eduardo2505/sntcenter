@@ -18,13 +18,20 @@
 								});
 							});
 						</script>
+						<script>
+							$(document).ready(function(){
+								$("#open_01").on("click",function(){
+									$(".cont_facebook").toggleClass("open");
+								})
+							})
+						</script>
 						<form action="<?php echo site_url('') ?>welcome/suscripcion" method="post" id="enviarSus">
 							<div class="dzen_column_DD_span9">
 								<input type="email" name="email"  class="dzencf-text" placeholder="Email " required="true">
 
 							</div>
 							<div class="dzen_column_DD_span2">
-							     <input type="submit" id="enviarSubmit" value="ENVIAR" class="dzencf-submit"  style="display: none">
+								<input type="submit" id="enviarSubmit" value="ENVIAR" class="dzencf-submit"  style="display: none">
 								<a href="#enviar" id="clickSus"  class="dzen-button dzen-button_light dzen-button_large">Suscribete</a>
 
 							</div>

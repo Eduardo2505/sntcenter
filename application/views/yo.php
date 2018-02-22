@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-ES">
+<html lang="es-MX">
 <?php include 'plantilla/head.php'; ?>
 <body>
 	<header id="dz_main_header" class="clearfix">

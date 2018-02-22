@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-ES">
+<html lang="es-MX">
 <?php include 'plantilla/head.php'; ?>
 <body>
 	<header id="dz_main_header" class="clearfix">
@@ -135,9 +135,9 @@
 		
 		<div class="dzen_container" >
 			
-			<span>* El Plan integral de 96 semanas, aplica mensualidades 
+		<!-- 	<span>* El Plan integral de 96 semanas, aplica mensualidades 
 				(3, 6, 9 y 12 meses) por pago en PayPal con las tarjetas de
-				 crédito participantes, y tiene 5% de descuento adicional liquidando el total en un solo pago. </span>
+				 crédito participantes, y tiene 5% de descuento adicional liquidando el total en un solo pago. </span> -->
 
 
 				<br><br><strong style="text-transform: uppercase;">¿Qué promociones tienen 
@@ -147,7 +147,7 @@
 <br>Promoción C: En la contratación de dos planes (aplicable a 48, 60 72 semanas): 20% de descuento adicional a cada uno.
 <br>Promoción D: En la contratación de tres planes (aplicable a 48, 60 y 72 semanas): 25% de descuento adicional a cada uno.
 <br>Promoción E: En la contratación de 2 planes o más ( 96 semanas): 30% de descuento adicional a cada uno.
-<br>Promoción Amigo: Por cada paciente nuevo recomendado siguiente consulta gratis.
+
 
 		</div>
 	</section>

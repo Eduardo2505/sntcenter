@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-ES">
+<html lang="es-MX">
 <?php include 'plantilla/head.php'; ?>
 <body>
 	<header id="dz_main_header" class="clearfix">
@@ -137,7 +137,7 @@
 					<td>12 semanas</td>
 					<td>3 consultas</td>
 					<td>$2,700.00</td>
-					<td><a href="https://sntcenter.com.mx/planes/inicio/2-12-semanas.html" style="color: blue">$900.00</a></td>
+					<td>$900.00</td>
 					<td>A: $2,430.00 y B: $2,295.00</td>
 				</tr>
 
@@ -145,7 +145,7 @@
 					<td>24 semanas</td>
 					<td>6 consultas</td>
 					<td>$5,100.00</td>
-					<td><a href="https://sntcenter.com.mx/planes/inicio/5-consulta-24-semanas.html" style="color: blue">$850.00</a></td>
+					<td>$850.00</td>
 					<td>A: $4,590.00 y B: $4,335.00</td>
 				</tr>
 
@@ -154,7 +154,7 @@
 					<td>36 semanas</td>
 					<td>9 consultas</td>
 					<td>$7,200.00</td>
-					<td><a href="https://sntcenter.com.mx/planes/inicio/6-consulta-36-semanas.html" style="color: blue">$800.00</a></td>
+					<td>$800.00</td>
 					<td>A: $6,480.00 y B: $6,120.00</td>
 				</tr>
 
@@ -163,7 +163,7 @@
 					<td>48 semanas</td>
 					<td>12 consultas</td>
 					<td>$9,750.00</td>
-					<td><a href="https://sntcenter.com.mx/planes/inicio/9-consulta-48-semanas.html" style="color: blue">$750.00</a></td>
+					<td>$750.00</td>
 					<td>C: $7,800.00 y D: $7,300.00</td>
 				</tr>
 
@@ -172,7 +172,7 @@
 					<td>60 semanas</td>
 					<td>15 consultas</td>
 					<td>$11,200.00</td>
-					<td><a href="https://sntcenter.com.mx/planes/inicio/10-consulta-60-semanas.html" style="color: blue">$700.00</a></td>
+					<td>$700.00</td>
 					<td>C: $8,960.00 y D: $8,400.00</td>
 				</tr>
 
@@ -180,7 +180,7 @@
 					<td>72 semanas</td>
 					<td>18 consultas</td>
 					<td>$11,700.00</td>
-					<td><a href="https://sntcenter.com.mx/planes/inicio/13-consulta-72-semanas.html" style="color: blue">$650.00</a></td>
+					<td>$650.00</td>
 					<td>C: $9,360 y D: $8,775</td>
 				</tr>
 
@@ -188,14 +188,12 @@
 					<td>96 semanas</td>
 					<td>24 consultas</td>
 					<td>$14,400</td>
-					<td><a href="https://sntcenter.com.mx/planes/inicio/14-consulta-96-semanas.html" style="color: blue">$600.00</a></td>
+					<td>$600.00</td>
 					<td>E: 10,080</td>
 				</tr>
 			</table>
 
-			<span>* El Plan integral de 96 semanas, aplica mensualidades 
-				(3, 6, 9 y 12 meses) por pago en PayPal con las tarjetas de
-				 crédito participantes, y tiene 5% de descuento adicional liquidando el total en un solo pago. </span>
+			
 
 
 				<br><br><strong style="text-transform: uppercase;">¿Qué promociones tienen 
@@ -205,7 +203,7 @@
 <br>Promoción C: En la contratación de dos planes (aplicable a 48, 60 72 semanas): 20% de descuento adicional a cada uno.
 <br>Promoción D: En la contratación de tres planes (aplicable a 48, 60 y 72 semanas): 25% de descuento adicional a cada uno.
 <br>Promoción E: En la contratación de 2 planes o más ( 96 semanas): 30% de descuento adicional a cada uno.
-<br>Promoción Amigo: Por cada paciente nuevo recomendado siguiente consulta gratis.
+
 
 		</div>
 	</section>
@@ -222,7 +220,7 @@
 			</div>
 			<div class="dzen_container">
 				<div class="dzen_column_DD_span6">
-					<img src="<?php echo site_url('') ?>images/ayuda.png" alt="">
+					<img src="<?php echo site_url('') ?>images/mecanicadetrabajo.jpg" alt="">
 				</div>
 				<div class="dzen_column_DD_span5">
 					<p style="text-align: justify">
