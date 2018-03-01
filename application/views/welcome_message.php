@@ -104,82 +104,64 @@
 		</header>
 		<div class="dzen_section_content">
 			<div class="dzen_container">
-				<div class="dzen_column_DD_span3 "></div>
-				<div class="dzen_column_DD_span3 ">
+				<div class="dzen_column_DD_span4 "></div>
+				<div class="dzen_column_DD_span4 ">
 					<div class="dzen_pricing-table-2">
 						<div class="dzen_plan dzen_plan1">
 							<div class="dzen_pricebox_header">
-								<span class="dzen_pricebox_name">1-2 Consultas</span>
+								<span class="dzen_pricebox_name">Cosulta</span>
 								<span class="dzen_pricebox_currency">$</span>
 								<span class="dzen_pricebox_price">500</span>
 								<span class="dzen_pricebox_monthly">C/U</span>
 							</div>
 
-							<span class="dzen_pricebox_feature">Abono</span>
+							<span class="dzen_pricebox_feature">Bono</span>
 							<span class="dzen_pricebox_feature">$50</span>
 							
 							<div class="dzen_pricebox_header">
 								
 								<span class="dzen_pricebox_currency">$</span>
 								<span class="dzen_pricebox_price">0</span>
-								<span class="dzen_pricebox_monthly">S/P</span>
+								<span class="dzen_pricebox_monthly">-</span>
 								<span class="dzen_pricebox_name">0</span>
 							</div>
-							
-
-
-
-							<span class="dzen_pricebox_feature">Descuento</span>
-							<span class="dzen_pricebox_feature">0%</span>
-
+						
 
 							
 							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
-								<a href="#" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
+								<a href="https://sntcenter.com.mx/planes/inicio/16-consulta-simple.html" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
 							</div>          
 						</div>
 					</div>
 				</div>
-				<div class="dzen_column_DD_span3 ">
-					<div class="dzen_pricing-table-2">
-						<div class="dzen_plan dzen_plan2 dzen_popular-plan">
-							<div class="dzen_pricebox_header">
-								<span class="dzen_pricebox_name">3 Consultas</span>
-								<span class="dzen_pricebox_currency">$</span>
-								<span class="dzen_pricebox_price">450</span>
-								<span class="dzen_pricebox_monthly">C/U</span>
-							</div>
-							
-							<span class="dzen_pricebox_feature">Abono</span>
-							<span class="dzen_pricebox_feature">$50</span>
-
-							<div class="dzen_pricebox_header">
-								
-								<span class="dzen_pricebox_currency">$</span>
-								<span class="dzen_pricebox_price">900</span>
-								<span class="dzen_pricebox_monthly">PROMO</span>
-								<span class="dzen_pricebox_name">3 Consultas</span>
-							</div>
-							<span class="dzen_pricebox_feature">Descuento</span>
-							<span class="dzen_pricebox_feature">10%</span>
-							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
-								<a href="#" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
-							</div>          
-						</div>
-					</div>
-				</div>
-
+			
 				
 				
 	
 			
 
 			</div>
-			<div class="dzen_container" style="text-align: center;">
-				<br><br>
-				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSNTCenter.SportNutritionandTrainningCenter%2F&tabs=messages&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=341527799694160" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-   
-				<br>Promoción Amigo: Por cada paciente nuevo recomendado que contrate algún Plan Integral o Consulta Simple, la siguiente consulta del cliente que recomendó es gratis
+		
+		</div>
+				
+	</section>
+
+	<section id="our_work" class="dzen_section_DD ">
+		<header>
+			<div class="dzen_container">
+				<h3>¿Cómo funciona?</h3>
+
+			</div>
+		</header>
+		<div class="dzen_section_content">
+			
+			<div class="dzen_container">
+			
+
+				<div class="dzen_column_DD_span12">
+					<img src="<?php echo site_url('') ?>images/Promo_Con_simple.jpg" alt="">
+				</div>
+
 			</div>
 		</div>
 				

@@ -1,4 +1,0 @@
-INSERT INTO `sntcenter_db`.`sucursal` (`nombre`, `direccion`) VALUES ('SNT Center', 'Pedro Moreno #81ª');
-INSERT INTO `sntcenter_db`.`sucursal` (`nombre`, `direccion`) VALUES ('Admin', 'Palma');
-INSERT INTO `sntcenter_db`.`nutriologo` (`nombre`, `apellidos`, `cedula`, `email`, `password`, `idsucursal`,`acceso`) VALUES ('Luis Alberto', 'Gómez Martin', 'AFFEJ/NABBA, CICD, WFF e INAD', 'gomezluisnutricion@hotmail.com', '12345', '1','0');
-INSERT INTO `sntcenter_db`.`nutriologo` (`nombre`, `apellidos`, `cedula`, `email`, `password`, `idsucursal`,`acceso`) VALUES ('Eduardo ','Padilla','-', 'eduardopadillacz@gmail.com', '12345', '2','1');
