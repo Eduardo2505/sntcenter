@@ -3,8 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
-	///private $destinatario="gomezluisnutricion@hotmail.com";
-	private $destinatario="eduardopadillacz@gmail.com";
+	private $destinatario="gomezluisnutricion@hotmail.com";
+	//private $destinatario="eduardopadillacz@gmail.com";
 
 	function __construct() {
 		parent::__construct();
@@ -32,7 +32,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('contacto',$data);
 	}
 
-    public function normativa()
+	public function normativa()
 	{
 		$datam['activar'] ='normativa';
 		$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
@@ -221,21 +221,14 @@ class Welcome extends CI_Controller {
 	public function suscripcion()
 	{
 		
-
-		
 		
 		$email=$this->input->post('email');
 		$asunto="Suscripcion ".$this->input->post('email');
-		
-		
 		$html= ' Email de Susucripción : '.$email; 
-
 		$cabeceras = 'From: suscripcion@sntcenter.com.mx' . "\r\n" .
 		'Reply-To: contacto@sntcenter.com.mx' . "\r\n" .
 		'Content-Type: text/html' . "\r\n" .
 		'X-Mailer: PHP/' . phpversion();
-
-
 
 		if (mail($this->destinatario, utf8_decode($asunto), $html, $cabeceras)) {
 			$datam['activar'] ='planes';
@@ -258,6 +251,14 @@ class Welcome extends CI_Controller {
 		$data['imagen']="Ponenciaacademica.jpg";
 		$data['costoConsulta']="1,25";
 		$data['linkConsulta']="#";
+		$data['iformacion']="Ponencia en temas y talleres, durante certificaciones, diplomados, 
+		seminarios, congresos, etc, ya sean presenciales o en línea. 
+		Referente a temas relacionados con Nutricion, Entrenamiento, 
+		Fitness, Farmacología y Culturismo. <br><br>
+		El precio de los Honorarios profesionales se negociará con el organizador 
+		conforme las diferentes características del evento. 
+		Los gastos de Viáticos se cubrirán por parte del organizador del evento. 
+		";
 		$this->load->view('serviciosprivados',$data);
 	}
 
@@ -270,6 +271,18 @@ class Welcome extends CI_Controller {
 		$data['imagen']="clasesPriva.jpg";
 		$data['costoConsulta']="1,25";
 		$data['linkConsulta']="#";
+		$data['iformacion']='Asesoría académica personalizada, 
+		referente a temas relacionados con Nutricion, Entrenamiento, 
+		Fitness, Farmacología y Culturismo. <br><br>
+		Se agenda un horario adecuado para ambas partes 
+		y poder hacer una video llamada por Skype. <br><br>
+		Se trabajará en sesiones de 2 horas, tomando en total 4 horas cada tema. 
+		Se brindará al alumno la presentación del tema más diversos formatos 
+		y materiales educativos (artículos científicos, imágenes, tablas y libros) 
+		para que profundice más por su cuenta. <br><br>
+		Precio por 1 hora de clase privada: $ 500. 
+		Las horas de clase necesarias dependerán del tema y del alumno. 
+		';
 		$this->load->view('serviciosprivados',$data);
 	}
 
@@ -282,48 +295,69 @@ class Welcome extends CI_Controller {
 		$data['imagen']="Equiponutricional.jpg";
 		$data['costoConsulta']="1,25";
 		$data['linkConsulta']="#";
+		$data['iformacion']='Material necesario para poder llevar un mejor control de la consulta. 
+		Pudiendo evaluar de mejor manera los cambios corporales (masa muscular y grasa corporal) mientras 
+		se puede llevar el Plan de alimentación más exacto, midiendo y pesando la comida. <br><br>
+		•	Báscula de composición corporal, Beurer BG-17.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	Mide 4 parámetros:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Peso corporal<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Grasa corporal<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Agua corporal<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Masa muscular<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	Características:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	5 niveles de actividad física (modo atleta)<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Memoria de almacenamiento para 10 usuarios<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Método de encendido Tap-On.<br><br>
+		•	Báscula digital de alimentos de tazón.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	Pantalla LCD con números grandes de fácil lectura.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	Capacidad 5 kg.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	Bowl incluido.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	Función de tarar.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	2 pilas AA incluidas.<br><br>
+		•	Set de Tazas medidoras (4 tazas).<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	Capacidad: ¼, ⅓, ½ y 1 taza.<br><br>
+		•	Set de Cucharas medidoras (5 cucharas).<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	Capacidad: ¼, ⅓, ½ y 1 cdita, ½ y 1 cda.<br>
+		Precio especial del paquete $ 950 + Envió ($150) = $1100.
+		';
 		$this->load->view('serviciosprivados',$data);
 	}
 
 
+	public function usarcupon()
+	{
+		$datam['activar'] ='normativa';
+		$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
+		$this->load->view('cupon',$data);
 
-public function emialPromocion()
+	}
+	public function emialPromocion()
 	{
 		
 
-		
-		/*$nombre=$this->input->post('nombre');
-		$email=$this->input->post('email');
-		$telefono=$this->input->post('telefono');
-		$asunto=$this->input->post('asunto');
-		$mensaje=$this->input->post('mensaje');
+		$email=$this->input->get('email');
+		$nombre=$this->input->get('nombre');
+		$codigo=$this->input->get('codigo');
+		$descuento=$this->input->get('descuento');
 
-		
-		$html= ' Email : '.$email.'
-		<br>Nombre : '.$nombre.'
-		<br>Teléfono: '.$telefono.'<br>
-		<br>Mensaje: '.$mensaje.'
-		'; 
+		$data['descuento'] =$descuento.' %';
+		$data['codigo'] =$codigo;
+		$data['nombre'] =$nombre;
+		$html= $this->load->view('emailplantilla',$data,true);
 
-		$cabeceras = 'From: contacto@sntcenter.com.mx' . "\r\n" .
-		'Reply-To: suscripcion@sntcenter.com.mx' . "\r\n" .
+		$asunto=$descuento.' % para tu siguiente consulta';
+		$cabeceras = 'From: SNT Center <gomezluisnutricion@hotmail.com>' . "\r\n" .
+		'Reply-To: gomezluisnutricion@hotmail.com ' . "\r\n" .
 		'Content-Type: text/html' . "\r\n" .
 		'X-Mailer: PHP/' . phpversion();
-
-
-
-		if (mail($this->destinatario, utf8_decode($asunto), $html, $cabeceras)) {
-			$datam['activar'] ='planes';
-			$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
-			$data['mensaje']="Se envió correctamente el mensaje, en unos momentos nos estaremos comunicando.";
-			$this->load->view('msn',$data);
+		if (mail($email, utf8_decode($asunto), $html, $cabeceras)) {
+			echo "Envio email";
 		}else{
 			echo "Error al enviarse correo";
-		}*/
-        $data['descuento'] ='10 %';
-        $data['codigo'] ='B4566633';
-        $data['nombre'] ='Eduardo Padilla Cruz';
-		$this->load->view('emailplantilla',$data);
+		}
+
+
+
 
 	}
 

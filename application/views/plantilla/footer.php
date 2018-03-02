@@ -33,7 +33,9 @@
 						<p><i class="ABdev_icon-envelope"></i><a href="mailto:gomezluisnutricion@hotmail.com">gomezluisnutricion@hotmail.com</a></p>
 						<p><i class="ABdev_icon-phonealt"></i>378 113 05 44</p>
 						<p><i class="ABdev_icon-home"></i>Pedro Moreno # 81-A. Colonia: Centro C.P.: 47700 ,Jalisco, México</p>
-						<!-- <p><i class="ABdev_icon-globe"></i><a href="#">Ver Mapa</a></p> -->
+					
+							<a href="#chat" class="open_01"> <img src="<?php echo site_url('') ?>images/messenger.png" > </a> 
+                       
 					</div>
 				</div>
 			</div>

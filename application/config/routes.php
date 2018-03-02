@@ -21,4 +21,5 @@ $route['mensaje-enviado'] = "welcome/eviarEmail";
 $route['clase-privada-academica'] = "welcome/clase";
 $route['equipo-para-seguimiento-consulta'] = "welcome/equipo";
 $route['normativa-de-servicio'] = "welcome/normativa";
+$route['como-usar-el-cupon'] = "welcome/usarcupon";
 

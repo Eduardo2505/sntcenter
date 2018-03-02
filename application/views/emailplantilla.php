@@ -29,7 +29,7 @@
                     <td align="center" valign="top" style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif">
                       <a href="https://sntcenter.com.mx/" title="SNT Center" style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;color:#ff5a5f;text-decoration:none"
                       target="_blank">
-                      <img src="https://sntcenter.com.mx/images/logo.png" border="0" alt="SNT Center" 
+                      <img src="<?php echo site_url('') ?>images/email/logo.png" border="0" alt="SNT Center" 
 					  width="170" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;max-width:100%;border:0;margin:0;display:block;">
                     </a>
                   </td>
@@ -41,13 +41,13 @@
           </div>
           <div class="row-padding-0 row-padding-top-0" style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif">
             <div class="row-space-top-2" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;margin-top:12.5px">
-              <div style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;background:url('https://a0.muscache.com/airbnb/rookery/email/business_travel/gift-880389ddff81f4458f02e8627b7f1a07.gif') no-repeat center bottom / auto 134px;height:134px;">
+              <div style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;background:url('<?php echo site_url('') ?>images/email/gift.gif') no-repeat center bottom / auto 134px;height:134px;">
               </div>
               <div class="row-space-top-5 row-padding-5" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;margin-top:31.25px;padding-bottom:31.25px">
                 <div class="h1 " style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-weight:bold;text-rendering:optimizelegibility;font-size:24px;line-height:28px;padding-bottom:10px">
 
                   
-¡Acabas de ganar 10% de Descuento!
+¡Acabas de ganar <?php echo $descuento?> de Descuento!
 
                 </div>
               </div>
@@ -68,7 +68,7 @@
 
                       <div class="row-space-top-8" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;margin-top:50px">
                         <strong style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif">
-                          Hola! Eduardo Padilla Cruz,
+                          Hola! <?php echo $nombre?>,
                         </strong>
                       </div>
 
@@ -96,7 +96,7 @@
                         <div class="h1 row-space-top-2" style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;margin-top:12.5px;font-weight:bold;padding-bottom:10px;text-rendering:optimizelegibility;font-size:40px;line-height:48px">
 
                           <strong style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif">
-                            APDE201810
+                           <?php echo $codigo?>
                           </strong>
 
                         </div>
@@ -109,7 +109,7 @@
                     <div class="p " style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;margin-top:1em;">
 
                       
-                         Si tiene preguntas sobre cómo aplicar su cupón, visite nuestro <a href="https://www.airbnb.com/help/article/160?eluid=0&amp;euid=a83239e2-1636-e1a6-0ac0-91a5d5b3ecb2" class="color-business" style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;text-decoration:none;color:#00d1c1"
+                         Si tiene preguntas sobre cómo aplicar su cupón, visite nuestro <a href="<?php echo site_url('') ?>como-usar-el-cupon" class="color-business" style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;text-decoration:none;color:#00d1c1"
                       target="_blank">AYUDA</a>.
 
                     </div>
@@ -124,9 +124,9 @@
 
                     <div class="p " style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;margin-top:1em;">
 
-                      <a href="https://www.airbnb.com/?eluid=1&amp;euid=a83239e2-1636-e1a6-0ac0-91a5d5b3ecb2" class="btn btn-block btn-business" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;cursor:pointer;display:block;padding:10px 16px;text-decoration:none;border-radius:2px;text-align:center;vertical-align:middle;font-weight:bold;white-space:nowrap;background:#9c27b0;border:1px solid;color:#ffffff;border-color:#9c27b0;background-color:#9c27b0"
+                      <a href="https://sntcenter.com.mx/" class="btn btn-block btn-business" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;cursor:pointer;display:block;padding:10px 16px;text-decoration:none;border-radius:2px;text-align:center;vertical-align:middle;font-weight:bold;white-space:nowrap;background:#9c27b0;border:1px solid;color:#ffffff;border-color:#9c27b0;background-color:#9c27b0"
                       target="_blank">
-                       Siguiente consulta
+                      Consulta
                     </a>
 
                   </div>
@@ -169,14 +169,14 @@
                         <td style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding: 5px;">
                           <a href="https://www.facebook.com/SNTCenter.SportNutritionandTrainningCenter/" title="Facebook" style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;color:#ff5a5f;text-decoration:none"
                           target="_blank">
-                          <img alt="Facebook" height="42" src="https://a1.muscache.com/airbnb/rookery/email/footer/facebook-942db036304a4d7531bd634125b0ed95.png" width="42" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;max-width:100%;border:0">
+                          <img alt="Facebook" height="42" src="<?php echo site_url('') ?>images/email/facebook.png" width="42" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;max-width:100%;border:0">
                         </a>
                       </td>
 
                       <td style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding: 5px;">
                         <a href="https://twitter.com/SNT_Center" title="Twitter" style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;color:#ff5a5f;text-decoration:none"
                         target="_blank">
-                        <img alt="Twitter" height="42" src="https://a0.muscache.com/airbnb/rookery/email/footer/twitter-1b57cb4f627e51c567753c2b1d89bd9a.png" width="42" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;max-width:100%;border:0">
+                        <img alt="Twitter" height="42" src="<?php echo site_url('') ?>images/email/twitter.png" width="42" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;max-width:100%;border:0">
                       </a>
                     </td>
 
@@ -208,7 +208,7 @@
         <td class="container" style="padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;display:block !important;margin:0 auto !important;clear:both !important;max-width:610px !important">
           <div class="content" style="font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:15px;max-width:600px;margin:0 auto;display:block;padding-right:5px;padding-bottom:5px;padding-top:0px;padding-left:5px;color:#9ca299;font-size:14px;text-align:center;text-shadow:0 1px #ffffff">
 
-            Enviado con <img alt="&amp;#9829;" height="10" src="https://a1.muscache.com/airbnb/rookery/email/footer/heart-40429bf8c39010bbdf3a3037be994609.png" width="12" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;max-width:100%">                        desde SNT Center
+            Enviado con <img alt="&amp;#9829;" height="10" src="<?php echo site_url('') ?>images/email/heart.png" width="12" style="margin:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;padding:0;max-width:100%">                        desde SNT Center
 			<br style="margin:0;padding:0;font-family:&quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif">
             
 

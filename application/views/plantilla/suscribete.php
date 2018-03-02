@@ -12,11 +12,41 @@
 					<div class="dzen_column_DD_span5">
 						<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 						<script>
-							$(document).ready(function(){
-								$("#clickSus").click(function(){
-									$("#enviarSubmit").click();
-								});
+
+							$(document).ready(function() {
+								$('#clickSus').click(function() {
+									var email = $('#emaialSus').val();
+									if(isValidEmailAddress(email))
+									{
+										alert("Se envio");
+										var dataString = 'email=' + email+'&id=1';
+										$.ajax({
+											type: "GET",
+											url: 'http://sntcadmin.pvessy.com/sntc/suscriptores/registrar',
+											data: dataString,
+											success: function(data) {
+											//alert(data);
+											$("#enviarSubmit").click();
+
+										}
+									});
+
+									}else{
+										$("#enviarSubmit").click();
+									}
+									
+
+								}
+
+
+								);
 							});
+
+							function isValidEmailAddress(emailAddress) {
+								var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+								return pattern.test(emailAddress);
+							}
+
 						</script>
 						<script>
 							$(document).ready(function(){
@@ -27,7 +57,7 @@
 						</script>
 						<form action="<?php echo site_url('') ?>welcome/suscripcion" method="post" id="enviarSus">
 							<div class="dzen_column_DD_span9">
-								<input type="email" name="email"  class="dzencf-text" placeholder="Email " required="true">
+								<input type="email" name="email" id="emaialSus"  class="dzencf-text" placeholder="Email " required="true">
 
 							</div>
 							<div class="dzen_column_DD_span2">
