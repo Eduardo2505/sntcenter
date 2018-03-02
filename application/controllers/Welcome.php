@@ -287,6 +287,46 @@ class Welcome extends CI_Controller {
 
 
 
+public function emialPromocion()
+	{
+		
+
+		
+		/*$nombre=$this->input->post('nombre');
+		$email=$this->input->post('email');
+		$telefono=$this->input->post('telefono');
+		$asunto=$this->input->post('asunto');
+		$mensaje=$this->input->post('mensaje');
+
+		
+		$html= ' Email : '.$email.'
+		<br>Nombre : '.$nombre.'
+		<br>Teléfono: '.$telefono.'<br>
+		<br>Mensaje: '.$mensaje.'
+		'; 
+
+		$cabeceras = 'From: contacto@sntcenter.com.mx' . "\r\n" .
+		'Reply-To: suscripcion@sntcenter.com.mx' . "\r\n" .
+		'Content-Type: text/html' . "\r\n" .
+		'X-Mailer: PHP/' . phpversion();
+
+
+
+		if (mail($this->destinatario, utf8_decode($asunto), $html, $cabeceras)) {
+			$datam['activar'] ='planes';
+			$data['menu'] = $this->load->view('plantilla/menu', $datam, true);
+			$data['mensaje']="Se envió correctamente el mensaje, en unos momentos nos estaremos comunicando.";
+			$this->load->view('msn',$data);
+		}else{
+			echo "Error al enviarse correo";
+		}*/
+        $data['descuento'] ='10 %';
+        $data['codigo'] ='B4566633';
+        $data['nombre'] ='Eduardo Padilla Cruz';
+		$this->load->view('emailplantilla',$data);
+
+	}
+
 
 
 }
