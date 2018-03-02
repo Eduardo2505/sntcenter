@@ -339,6 +339,8 @@ class Welcome extends CI_Controller {
 		$nombre=$this->input->get('nombre');
 		$codigo=$this->input->get('codigo');
 		$descuento=$this->input->get('descuento');
+		$op=$this->input->get('op');
+		$idcliente=$this->input->get('idcliente');
 
 		$data['descuento'] =$descuento.' %';
 		$data['codigo'] =$codigo;
@@ -351,7 +353,10 @@ class Welcome extends CI_Controller {
 		'Content-Type: text/html' . "\r\n" .
 		'X-Mailer: PHP/' . phpversion();
 		if (mail($email, utf8_decode($asunto), $html, $cabeceras)) {
-			echo "Envio email";
+			if($op==1){
+
+				redirect('http://snt.pvessy.com/sntcenterAdmin/cliente/citas?idcliente='.$idcliente, 'refresh');
+			}
 		}else{
 			echo "Error al enviarse correo";
 		}
