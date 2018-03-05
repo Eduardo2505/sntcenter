@@ -111,7 +111,7 @@
 						<div class="dzen_pricing-table-2">
 							<div class="dzen_plan dzen_plan1">
 								<div class="dzen_pricebox_header">
-									<span class="dzen_pricebox_name">	Consulta Simple</span>
+									<span class="dzen_pricebox_name">Plan de Alimentación</span>
 									<span class="dzen_pricebox_currency">$</span>
 									<span class="dzen_pricebox_price">500.00</span>
 									<!-- 		<span class="dzen_pricebox_monthly">C/U</span> -->
@@ -127,7 +127,7 @@
 						<div class="dzen_pricing-table-2">
 							<div class="dzen_plan dzen_plan1">
 								<div class="dzen_pricebox_header">
-									<span class="dzen_pricebox_name">Plan Integra</span>
+									<span class="dzen_pricebox_name">Plan Alimentación y Entrenamiento</span>
 									<span class="dzen_pricebox_currency">$</span>
 									<span class="dzen_pricebox_price">1,000.00</span>
 									<!-- 		<span class="dzen_pricebox_monthly">C/U</span> -->
@@ -143,7 +143,7 @@
 						<div class="dzen_pricing-table-2">
 							<div class="dzen_plan dzen_plan1">
 								<div class="dzen_pricebox_header">
-									<span class="dzen_pricebox_name">Consulta de acondecionamiento</span>
+									<span class="dzen_pricebox_name">Plan de Entrenamiento</span>
 									<span class="dzen_pricebox_currency">$</span>
 									<span class="dzen_pricebox_price">500.00</span>
 									<!-- 	<span class="dzen_pricebox_monthly">C/U</span> -->
