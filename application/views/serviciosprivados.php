@@ -66,13 +66,43 @@
 				<div class="dzen_column_DD_span3 ">
 					
 				</div>
-				<div class="dzen_column_DD_span6 ">
-					<div class="dzen_pricing-table-2">
-						<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+				<?php
+				if($linkConsulta!=1){
+					?>
+
+					<div class="dzen_column_DD_span6 ">
+						<div class="dzen_pricing-table-2">
+							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
 								<a href="#Contacta" target="_self" class="dzen-button dzen-button_blue dzen-button_large open_01">Contáctanos</a>
 							</div> 
+						</div>
 					</div>
-				</div>
+					<?php
+				}else{
+					?>
+					<div class="dzen_column_DD_span6 ">
+						<div class="dzen_pricing-table-2">
+							<div class="dzen_plan dzen_plan1">
+								<div class="dzen_pricebox_header">
+									<span class="dzen_pricebox_name">PAQUETE</span>
+									<span class="dzen_pricebox_currency">$</span>
+									<span class="dzen_pricebox_price">1,100.00</span>
+								</div>
+								<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+									<a href="https://sntcenter.com.mx/planes/inicio/17-consulta-simple.html" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+								</div>          
+							</div>
+						</div>
+					</div>
+					<?php
+
+
+				}
+
+				?>
+				
+
+
 
 			</div>
 		</div>

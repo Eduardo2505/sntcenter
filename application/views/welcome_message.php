@@ -98,52 +98,81 @@
 	<section id="our_work" class="dzen_section_DD ">
 		<header>
 			<div class="dzen_container">
-				<h3>Promoción Consulta Simple</h3>
+				<h3>Consulta Simple</h3>
 
 			</div>
 		</header>
 		<div class="dzen_section_content">
-			<div class="dzen_container">
-				<div class="dzen_column_DD_span4 "></div>
-				<div class="dzen_column_DD_span4 ">
-					<div class="dzen_pricing-table-2">
-						<div class="dzen_plan dzen_plan1">
-							<div class="dzen_pricebox_header">
-								<span class="dzen_pricebox_name">Cosulta</span>
-								<span class="dzen_pricebox_currency">$</span>
-								<span class="dzen_pricebox_price">500</span>
-								<span class="dzen_pricebox_monthly">C/U</span>
-							</div>
 
-							<span class="dzen_pricebox_feature">Bono</span>
-							<span class="dzen_pricebox_feature">$50</span>
-							
-							<div class="dzen_pricebox_header">
-								
-								<span class="dzen_pricebox_currency">$</span>
-								<span class="dzen_pricebox_price">0</span>
-								<span class="dzen_pricebox_monthly">-</span>
-								<span class="dzen_pricebox_name">0</span>
-							</div>
-						
+			<div class="row">
+				<div class="dzen_container">
 
-							
-							<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
-								<a href="https://sntcenter.com.mx/planes/inicio/16-consulta-simple.html" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
-							</div>          
+					<div class="dzen_column_DD_span4 ">
+						<div class="dzen_pricing-table-2">
+							<div class="dzen_plan dzen_plan1">
+								<div class="dzen_pricebox_header">
+									<span class="dzen_pricebox_name">Consulta Alimecio</span>
+									<span class="dzen_pricebox_currency">$</span>
+									<span class="dzen_pricebox_price">500.00</span>
+									<!-- 		<span class="dzen_pricebox_monthly">C/U</span> -->
+								</div>
+								<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+									<a href="https://sntcenter.com.mx/planes/inicio/16-consulta-simple.html" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+								</div>          
+							</div>
 						</div>
 					</div>
-				</div>
-			
-				
-				
-	
-			
 
+					<div class="dzen_column_DD_span4 ">
+						<div class="dzen_pricing-table-2">
+							<div class="dzen_plan dzen_plan1">
+								<div class="dzen_pricebox_header">
+									<span class="dzen_pricebox_name">Plan Integra</span>
+									<span class="dzen_pricebox_currency">$</span>
+									<span class="dzen_pricebox_price">1,000.00</span>
+									<!-- 		<span class="dzen_pricebox_monthly">C/U</span> -->
+								</div>
+								<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+									<a href="https://sntcenter.com.mx/planes/inicio/18-consulta-simple.html" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+								</div>          
+							</div>
+						</div>
+					</div>
+
+					<div class="dzen_column_DD_span4 ">
+						<div class="dzen_pricing-table-2">
+							<div class="dzen_plan dzen_plan1">
+								<div class="dzen_pricebox_header">
+									<span class="dzen_pricebox_name">Consulta de acondecionamiento</span>
+									<span class="dzen_pricebox_currency">$</span>
+									<span class="dzen_pricebox_price">500.00</span>
+									<!-- 	<span class="dzen_pricebox_monthly">C/U</span> -->
+								</div>
+								<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
+									<a href="https://sntcenter.com.mx/planes/inicio/19-consulta-simple.html" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+								</div>          
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+				</div>
 			</div>
-		
+			<div class="row">
+				<div class="dzen_container">
+					<div class="dzen_column_DD_span12 ">
+						<bR>
+						Promoción por invitar a algún amigo/familiar (solo aplica a Consulta Simple): Por cada cliente/paciente nuevo recomendado que contrate algún Plan Integral o Consulta Simple, la siguiente consulta del cliente/paciente que recomendó será GRATIS. 
+					</div>
+				</div>
+			</div>
+
 		</div>
-				
+
 	</section>
 
 	<section id="our_work" class="dzen_section_DD ">
@@ -156,7 +185,7 @@
 		<div class="dzen_section_content">
 			
 			<div class="dzen_container">
-			
+
 
 				<div class="dzen_column_DD_span12">
 					<img src="<?php echo site_url('') ?>images/Promo_Con_simple.jpg" alt="">
@@ -164,7 +193,7 @@
 
 			</div>
 		</div>
-				
+
 	</section>
 	
 

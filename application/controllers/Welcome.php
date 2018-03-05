@@ -250,7 +250,7 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Ponencia Académica";
 		$data['imagen']="Ponenciaacademica.jpg";
 		$data['costoConsulta']="1,25";
-		$data['linkConsulta']="#";
+		$data['linkConsulta']="0";
 		$data['iformacion']="Ponencia en temas y talleres, durante certificaciones, diplomados, 
 		seminarios, congresos, etc, ya sean presenciales o en línea. 
 		Referente a temas relacionados con Nutricion, Entrenamiento, 
@@ -270,7 +270,7 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Clase privada académica";
 		$data['imagen']="clasesPriva.jpg";
 		$data['costoConsulta']="1,25";
-		$data['linkConsulta']="#";
+		$data['linkConsulta']="0";
 		$data['iformacion']='Asesoría académica personalizada, 
 		referente a temas relacionados con Nutricion, Entrenamiento, 
 		Fitness, Farmacología y Culturismo. <br><br>
@@ -294,7 +294,7 @@ class Welcome extends CI_Controller {
 		$data['titulo']="Equipo para seguimiento de la consulta";
 		$data['imagen']="Equiponutricional.jpg";
 		$data['costoConsulta']="1,25";
-		$data['linkConsulta']="#";
+		$data['linkConsulta']=1;
 		$data['iformacion']='Material necesario para poder llevar un mejor control de la consulta. 
 		Pudiendo evaluar de mejor manera los cambios corporales (masa muscular y grasa corporal) mientras 
 		se puede llevar el Plan de alimentación más exacto, midiendo y pesando la comida. <br><br>
