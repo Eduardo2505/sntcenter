@@ -117,7 +117,7 @@
 									<!-- 		<span class="dzen_pricebox_monthly">C/U</span> -->
 								</div>
 								<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
-									<a href="https://sntcenter.com.mx/planes/inicio/16-consulta-simple.html" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+									<a href="https://sntcenter.com.mx/planes/inicio/16-consulta-simple.html" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
 								</div>          
 							</div>
 						</div>
@@ -149,7 +149,7 @@
 									<!-- 	<span class="dzen_pricebox_monthly">C/U</span> -->
 								</div>
 								<div class="dzen_pricebox_feature dzen_pricebox_feature_button">
-									<a href="https://sntcenter.com.mx/planes/inicio/19-consulta-simple.html" target="_self" class="dzen-button dzen-button_blue dzen-button_large">Comparar</a>
+									<a href="https://sntcenter.com.mx/planes/inicio/19-consulta-simple.html" target="_self" class="dzen-button dzen-button_gray dzen-button_large">Comparar</a>
 								</div>          
 							</div>
 						</div>
