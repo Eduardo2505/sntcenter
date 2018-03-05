@@ -111,7 +111,7 @@
 						<div class="dzen_pricing-table-2">
 							<div class="dzen_plan dzen_plan1">
 								<div class="dzen_pricebox_header">
-									<span class="dzen_pricebox_name">Consulta Alimecio</span>
+									<span class="dzen_pricebox_name">	Consulta Simple</span>
 									<span class="dzen_pricebox_currency">$</span>
 									<span class="dzen_pricebox_price">500.00</span>
 									<!-- 		<span class="dzen_pricebox_monthly">C/U</span> -->
